@@ -5,7 +5,7 @@ layout: null
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     {% if site.title %}
-    <title>{"Please"}</title>
+    <title>{{ post.title | xml_escape }}</title>
     {% endif %}
     {% if site.rss-description %}
     <description>{{ site.rss-description | xml_escape }}</description>
