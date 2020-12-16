@@ -1,7 +1,9 @@
 ---
+layout: drafts
 title: Are racisme and political orientation correlated ?
     type: "posts"
 comments: False
+
 ---
 # A worrying political context
 No need to remind you of the many criticisms to Donald Trump about his various forms of discrimination, especially racism. His image and lack of ideology is worrying, especially as it could reflect an atmosphere within his electorate, with racism between individuals and also in official institutions such as the police.
