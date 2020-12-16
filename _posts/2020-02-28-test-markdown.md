@@ -1,16 +1,17 @@
 ---
-layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: Here's what we do
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
-comments: true
+comments: False
 ---
+## A worrying political context
+Welcome to our journey through the police arrests of 2016! 
+No need to remind you of the many criticisms to Donald Trump about his various forms of discrimination, especially racism. His image and lack of ideology is worrying, especially as it could reflect an atmosphere within his electorate, with racism between individuals and also in official institutions such as the police.
+At a time when the Black Lives Matter movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA... What we want to know is: is there a racist bias in police stops in the US ? Is there any link between our future results and the political inclination of the region studied ? 
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
+### What data are we looking at ?
+For this study we confined ourselves to the year 2016. We use a dataset of **100 million traffic stops** across the United States. We also compare this data with the [the New York Times website](https://www.nytimes.com/elections/2016/results/president) website which reports the results to the **US presidential elections of 2016**.
 
 ## Here is a secondary heading
 
