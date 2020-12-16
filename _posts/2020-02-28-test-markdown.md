@@ -1,8 +1,6 @@
 ---
 title: Here's what we do
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+    type: "drafts"
 comments: False
 ---
 ## A worrying political context

@@ -1,15 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Meet the Halouma team !
+subtitle: Why we are the best team of ADA 2020 ?
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+Behind the Halouma team hide three passionated students: Margaux, Louis and Hannah.
 
 ### My story
 
