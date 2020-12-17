@@ -40,6 +40,7 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
 | :------ |:--- | :--- |
 | Red | 2 104 964.4 | 47 958.6 |
 | Blue | 1 071 249.6 | 29 642.0 |
+{: .mx-auto.d-block :}
 
 Okay, we're talking millions of data points. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
 
