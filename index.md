@@ -45,7 +45,16 @@ Okay, we're talking millions of data points. Looks big enough! Let's proceed wit
 
 ## Hit rates and threshold in blue states compared to red states
 
-![Hit and threshold, national level](/assets/img/Unknown.png){: .mx-auto.d-block :}
+Let's have a first look at our data through the following visualization:
+
+![Hit and threshold, vizualization](/assets/img/Unknown.png){: .mx-auto.d-block :}
+
+Ajouter les observations sur ce plot
+
+Now, let's look at the distribution of these findings.
+The results are shown here:
+![Hit, national](/assets/img/hit rate, national.png){: .mx-auto.d-block :}
+![Threshold, national](/assets/img/threshold, national.png){: .mx-auto.d-block :}
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
