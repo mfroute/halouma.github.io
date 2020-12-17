@@ -6,12 +6,14 @@ comments: False
 cover-img: /assets/img/1280px-Red_state,_blue_state.png
 
 ---
-![police](assets/img/fucklapolice.png){: .mx-auto.d-block :}
+![police](assets/img/fucklapolice.png = 100){: .mx-auto.d-block :}
 
-[center] # A worrying political context [/center]
+test:
+<img align="left" width="100" src="assets/img/fucklapolice.png">
+# A worrying political context
 At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
 
-![manif](assets/img/blacklivesmatter.png){: .mx-auto.d-block :}
+![manif](assets/img/blacklivesmatter.png = 100){: .mx-auto.d-block :}
 
 
 Today, we study the police behaviour as a barometer of prejudices toward different ethnic origins. No need to tell you that any correlation with a political inclination would be even more questioning about the values spread by certain political parties...
