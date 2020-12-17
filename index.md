@@ -57,14 +57,22 @@ The results are shown here:
 ![Hit, national](/assets/img/hit rate, national.png){: .mx-auto.d-block :}
 ![Threshold, national](/assets/img/threshold, national.png){: .mx-auto.d-block :}
 
+Visually, one can see that the hit rates and thresholds for non-Caucasian minorities are generally lower than their equivalent for white drivers. Note that we have grouped hispanic and black drivers together as non-Caucasian and put them in the same plot in order to check any differences within the minorities compared to white drivers.
+
+## 
+
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
 The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results! For example, a blue county within a red state will distort our correlation study. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results county by county. 
 
 # Let's take a closer look !
 ## Texas counties blue/red repartition
+For our study, we has a closer look at Texas counties, which, as a red states, includes both red and blue counties. Big cities tend to be located in blue counties, whereas more rural areas represent red counties. Let's look at how the hit rate and threshold repartition changes based on the county color.
 
 ## Comparison of red and blue counties
+Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
+![Hit, Texas](/assets/img/hit_rate_tx.png){: .mx-auto.d-block :}
+![Threshold, Texas](/assets/img/threshold_tx.png){: .mx-auto.d-block :}
 
 ## Observations again
 
