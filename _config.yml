@@ -57,7 +57,7 @@ feed_show_excerpt: true
 navbar-col: "#E0FFFF"
 navbar-text-col: "#778899"
 navbar-border-col: "#E0FFFF"
-page-col: "#FFFFFF"
+page-col: "#C2D6FF"
 text-col: "#778899"
 link-col: "#6A5ACD"
 hover-col: "#0085A1"
