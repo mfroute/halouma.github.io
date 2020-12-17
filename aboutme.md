@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meet the Halouma team !
-subtitle: Why we are the best team of ADA 2020 ?
+subtitle: Why we are the best team of ADA 2020
 ---
 
 Behind the Halouma team hide three passionated students: Margaux, Louis and Hannah.
