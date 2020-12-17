@@ -13,7 +13,7 @@ At a time when the Black Lives Matter movement, the denunciation of police viole
 
 # Let's quantify racism
 ## What data are we looking at ?
-For this study we confined ourselves to the year 2016. We use a dataset of **100 million traffic stops** across the United States. We also compare this data with the [the New York Times website](https://www.nytimes.com/elections/2016/results/president) website which reports the results to the **US presidential elections of 2016**.
+For this study we confined ourselves to the year 2016. We use a dataset of **100 million traffic stops** across the United States. We also compare this data with the [New York Times website](https://www.nytimes.com/elections/2016/results/president), which reports the results to the **US presidential elections of 2016**.
 
 ## Is racism measurable ?
 This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and colour of the driver.
