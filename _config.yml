@@ -15,10 +15,10 @@ author: The Halouma team
 
 navbar-links:
   About Halouma: "aboutme"
-Resources:
-    - US 2016 Presidential Elections : "https://www.nytimes.com/elections/2016/results/president"
-    - Zoom on Texas results: "https://www.nytimes.com/elections/2016/results/texas"
-    - The Stanford Open Policing Project : "https://openpolicing.stanford.edu"
+  Resources:
+      - US 2016 Presidential Elections : "https://www.nytimes.com/elections/2016/results/president"
+      - Zoom on Texas results: "https://www.nytimes.com/elections/2016/results/texas"
+      - The Stanford Open Policing Project : "https://openpolicing.stanford.edu"
 
 # --- Footer social media links --- #
 
