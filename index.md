@@ -58,7 +58,7 @@ The results are shown here:
 
 Visually, one can see that the hit rates and thresholds for non-Caucasian minorities are generally lower than their equivalent for white drivers. Note that we have grouped hispanic and black drivers together as non-Caucasian and put them in the same plot in order to check any differences within the minorities compared to white drivers.
 
-## 
+## Statistics
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
@@ -76,7 +76,9 @@ Following we have the equivalent of the previous plots, but at the Texas level, 
 
 ## Observations again
 
+## Rajouter les tests sur les counties
 
+## Conclusion
 
 
 ## trucs potentiellement utiles que je laisse au cas où :
