@@ -45,7 +45,7 @@ Okay, we're talking millions of data points. Looks big enough! Let's proceed wit
 
 ## Hit rates and threshold in blue states compared to red states
 
-![Hit and threshold, national level](/assets/img/Unknown.png)
+![Hit and threshold, national level](/assets/img/Unknown.png){: .mx-auto.d-block :}
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
