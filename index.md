@@ -8,8 +8,9 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 ---
 
 # A worrying political context
-No need to remind you of the many criticisms to Donald Trump about his various forms of discrimination, especially racism. His image and lack of ideology is worrying, especially as it could reflect an atmosphere within his electorate, with racism between individuals and also in official institutions such as the police.
-At a time when the Black Lives Matter movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA... What we want to know is: is there a racist bias in police stops in the US ? Is there any link between our future results and the political inclination of the region studied ? 
+
+At a time when the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
+Today, we study the police behaviour as a barometer of prejudices toward different ethnic origins. No need to tell you that any correlation with a political inclination would be even more questioning about the values spread by certain political parties...
 
 # Let's quantify racism
 ## What data are we looking at ?
@@ -34,6 +35,7 @@ Now, let's select states that seem to be most significant: that is, the ones tha
 This divides our 6 remaining states into two groups: South Carolina and Texas in the red group, and Illinois, Connecticut, Rhode Island and Washington in the blue group.
 
 ## Data vizualization 
+
 Before plotting our rates, we first want to check if our dataset is big enough: are there enough police stops and searches for our results to be significant? The results are in the following table: 
 
 | State group | Number of stops per year | Number of searches per year|
@@ -68,11 +70,17 @@ The election results we used are state-wide. As they cover a very large populati
 ## Texas counties blue/red repartition
 For our study, we has a closer look at Texas counties, which, as a red states, includes both red and blue counties. Big cities tend to be located in blue counties, whereas more rural areas represent red counties. Let's look at how the hit rate and threshold repartition changes based on the county color.
 
+Once again, we are looking at large numbers of police stops - no worries for the significancy of our results ! See by yourself : 
+
+| Texas county group | Number of stops per year | Number of searches per year|
+| :------ |:--- | :--- |
+| Red | remplir | remplir |
+| Blue | remplir | remplir |
+
 ## Comparison of red and blue counties
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
 ![Hit, Texas](/assets/img/hit_rate_tx.png){: .mx-auto.d-block :}
 ![Threshold, Texas](/assets/img/threshold_tx.png){: .mx-auto.d-block :}
-
 
 ## Observations again
 
@@ -83,15 +91,6 @@ Following we have the equivalent of the previous plots, but at the Texas level, 
 
 ## trucs potentiellement utiles que je laisse au cas où :
 ### y a comment faire un tableau, ref à un site, à une image, ligne de codes etc
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
 
 How about a yummy crepe?
 
