@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Meet the Halouma team !
+title: About Halouma
 subtitle: Why we are the best team of ADA 2020
 ---
 
