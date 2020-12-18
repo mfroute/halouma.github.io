@@ -193,7 +193,7 @@ Once again, we are looking at large numbers of police stops - no worries for the
 ## Comparison of red and blue counties
 Again, let’s have a first look at our data through the following visualization:
 <p align="center">
-  <img width="700" src="/assets/img/visual_county.png" />
+  <img width="600" src="/assets/img/visual_county.png" />
 </p>
 **ajouter discussion**
 
