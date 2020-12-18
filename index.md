@@ -29,7 +29,7 @@ If it is lower, it may also show a bias on the part of the police officer.
 .
 After counting these parameters we will **compare the results between <span style="color:Maroon">red</span> and <span style="color:Navy">blue</span> states** !
 
-> **Quick note for better understanding:**  As stated in [the paper][^2], the hit rate is "_the proportion of searches that successfully turn up contraband_". The inferred threshold is calculated thanks to the threshold test and is also found in the dataset of the paper. It is known to "_incorporates both the rate at which searches occur, as well as the success rate of those searches_" and reflects the level of the "_evidentiary bar applied when making search decisions_". Therefore, a lower inferred threshold shows an inclination of searching a driver without evidence against him or her, as well as a lower hit rate.
+> **Quick note for better understanding:**  As stated in [the paper], the hit rate is "_the proportion of searches that successfully turn up contraband_". The inferred threshold is calculated thanks to the threshold test and is also found in the dataset of the paper. It is known to "_incorporates both the rate at which searches occur, as well as the success rate of those searches_" and reflects the level of the "_evidentiary bar applied when making search decisions_". Therefore, a lower inferred threshold shows an inclination of searching a driver without evidence against him or her, as well as a lower hit rate.
 
 # Comparing red and blue states
 ## Which states and why ?
@@ -269,7 +269,7 @@ However, **it is important to remember that this is an observational study** and
 
 ## What we can say...
 ### Clear conclusions on Non-Caucasian drivers hit rates and thresholds
-As stated in the [Stanford University paper][^2], we did observe lower hit rate and threshold values for non-Caucasian drivers, suggesting a bias in the decision of conducting of search by police officer for these drivers. In addition, the values for Hispanic drivers differed even more markedly from their equivalent for white drivers.
+As stated in the [Stanford University paper], we did observe lower hit rate and threshold values for non-Caucasian drivers, suggesting a bias in the decision of conducting of search by police officer for these drivers. In addition, the values for Hispanic drivers differed even more markedly from their equivalent for white drivers.
 
 ### No clear conclusion about state major political party
 Although the averages of the normalised parameters are **lower in the red states than in the blue states** (found thanks to the Mann-Whitney test), the global distributions are not obviously different between the two groups of states. Our data and therefore our results remain heterogeneous and have no clear trend according to the colour of the state. As the states include a large number of counties that are themselves very various in terms of police stops and political orientation, we cannot base our study on the state level. If there is a correlation, it is normal that it is not or hardly visible at this level. We have to look at the counties to find out more !
@@ -278,13 +278,14 @@ Although the averages of the normalised parameters are **lower in the red states
  ???? 
 
 # References
+- [New York Times, 2016 Presidential Election Results](https://www.nytimes.com/elections/2016/results/president), consulted in 2020
+[NYT]: https://www.nytimes.com/elections/2016/results/president
 
-[^1] : [The New York Times, *2016 Presidential Election Results*, consulted in 2020](https://www.nytimes.com/elections/2016/results/president)
+- [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab] (https://openpolicing.stanford.edu/), The Stanford Open Policing Project, 2020
+[Stanford]: https://openpolicing.stanford.edu/
 
-[^2] : [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab, _The Stanford Open Policing Project_, 2020](https://openpolicing.stanford.edu/)
+- [Unsplash](https://unsplash.com/): photo for everyone, consulted in december 2020: 
 
-[^3] : [Unsplash: photos for everyone, consulted in december 2020](https://unsplash.com/)
-
-[^4] : [Wikipédia, _2016 United States presidential election_](https://en.wikipedia.org/wiki/2016_United_States_presidential_election)
+- [Wikipédia, 2016 United States presidential election](https://en.wikipedia.org/wiki/2016_United_States_presidential_election)
 
 # Thank you for your attention ! 
