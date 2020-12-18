@@ -89,7 +89,8 @@ The election results we used are state-wide. As they cover a very large populati
 ## Texas counties: <span style="color:Navy">blue</span> and <span style="color:Maroon">red</span> repartition
 As a start, here's a map of election results in Texas, each portion being a county. See how many blue counties there are even when Texas is a traditionnal red state ?
 Also, note that big cities tend to be located in blue counties, whereas more rural areas represent red counties. Dallas is the little blue squared, isolated amoung red ones in the top right region !
-<img align="left" width="200" src="assets/img/texas.png">
+
+<img align="left" width="250" src="assets/img/texas.png">
 
 Let's look at how the hit rate and threshold repartition changes based on the county color.
 
@@ -135,7 +136,7 @@ It is very important to remember that we are only _observing_ certain characteri
 However, **it is important to remember that this is an observational study** and not an experiment: we do not know all about the environment in which these arrests took place, nor the various parameters that could have affected them - even though we thought of some. **We point out that disparities in these parameters seem correlated to the race of the driver**, but **we do not establish a causal link**, due to the lack of a sufficiently rigorous and varied investigation (historical and political context, sociological study, comparison with other countries, comparison with other types of police intervention, etc.) to conclude in this way.
 
 ## What we can say ...
-### Clear conclusions on Non-Caucasian drivers
+### Clear conclusions on Non-Caucasian drivers hit rates and thresholds
 #### lower for non caucasian
 as stated in [.....] link to the paper
 #### even lower for hispanic drivers
