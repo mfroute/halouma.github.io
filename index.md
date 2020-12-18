@@ -177,9 +177,9 @@ The election results we used are state-wide. As they cover a very large populati
 ## Texas counties: <span style="color:Navy">blue</span> and <span style="color:Maroon">red</span> repartition
 As a start, here's a map of election results in Texas, each portion being a county. See how many blue counties there are even when Texas is a traditionnal red state ?
 Also, note that big cities tend to be located in blue counties, whereas more rural areas represent red counties. Dallas is the little blue squared, isolated amoung red ones in the top right region !
-<center>
-<img align="center" width="250" src="assets/img/texas.png">
-</center>
+<p align="center">
+  <img src=width="250" src="assets/img/texas.png" />
+</p>
 
 Let's look at how the hit rate and threshold repartition changes based on the county color.
 
@@ -192,12 +192,12 @@ Once again, we are looking at large numbers of police stops - no worries for the
 
 ## Comparison of red and blue counties
 Again, let’s have a first look at our data through the following visualization:
-![Viz, Texas](/assets/img/visual_county.png){: .mx-auto.d-block :}
+![Viz, Texas](/assets/img/visual_county.png)
 **ajouter discussion**
 
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
-![Hit, Texas](/assets/img/hit_rate_tx.png){: .mx-auto.d-block :}
-![Threshold, Texas](/assets/img/threshold_tx.png){: .mx-auto.d-block :}
+![Hit, Texas](/assets/img/hit_rate_tx.png)
+![Threshold, Texas](/assets/img/threshold_tx.png)
 
 ## Our observations
 First, let's specify that we have clearly _too few points_ in blue states to allow a global visualization and obvious conclusion drawing from these plots. But still, we can make a few observations :
