@@ -46,7 +46,7 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
 | :------: |:---: | :---: |
 | <span style="color:Maroon">Red</span> | 2 104 964.4 | 47 958.6 |
 | <span style="color:Navy">Blue</span> | 1 071 249.6 | 29 642.0 |
-<\center>
+</center>
 Okay, we're talking _millions_ of data points. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
 
 ## Hit rates and threshold in blue states compared to red states
@@ -100,7 +100,7 @@ The results are as follows:
 | :------: |:---: |
 | Not normalized | 2.2283 e-06 |
 | Normalized | 0.14982|
-<\center>
+</center>
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
