@@ -163,8 +163,12 @@ Okay, let's run some more tests! This time on the mean hit rates and thresholds 
 </table>
 </center>
 
-
 Given these p values we can only reject the null hypothesis for **mean black thresholds**, suggesting bias in black thresholds for blue states. The rest of p values are small but not low enough to reject the null hypotheses.
+
+**EST CE QUON RAJOUTE LES TRUCS DE LOUIS QUI ONT UN P VALUE DE 0?**
+
+## Prediction model
+
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
@@ -192,7 +196,6 @@ Following we have the equivalent of the previous plots, but at the Texas level, 
 ![Threshold, Texas](/assets/img/threshold_tx.png){: .mx-auto.d-block :}
 
 ## Our observations
-
 First, let's specify that we have clearly _too few points_ in blue states to allow a global visualization and obvious conclusion drawing from these plots. But still, we can make a few observations :
 About disparities : 
 - **a disparity remains between black and hispanic drivers**, with hispanic hit rates and thresholds further from the diagonal than black ones. **This is seen in county groups** and for all parameters.
@@ -203,7 +206,9 @@ About red and blue differences:
 - Blue counties points are not numerous, but some represent a large numbers of police searches. Their repartition is <span style="color:Navy">globally close to the diagonal</span>.
 - all parameters seem to be higher in red counties, even for white drivers: the dots are located in the middle of the diagonal, with no dot close to the origin. Why is that ? We will try to answer this question at the end of our data story.
 
-## Stats sur les counties
+## Statistics
+### Tableau avec normalized and weighted mean:
+
 
  
 ## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
