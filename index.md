@@ -55,20 +55,35 @@ Let's have a first look at our data through the following visualization:
 
 ![Hit and threshold, vizualization](/assets/img/Unknown.png){: .mx-auto.d-block :}
 
-Ajouter les observations sur ce plot
+Here we normalized black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. Also, a state could have only low hit rates for every ethnic origins, without this indication more or less discrimination.
 
-Now, let's look at the distribution of these findings.
-The results are shown here:
+- Can you see how all thresholds (right plot) for minorities are lower than the one for white drivers ?
+- It's almost the same for the hit rates (left plot) ! Can you spot the two states that make an exception ?
+- All parameters for hispanic drivers are lower than for black drivers, with a few exception where they're the same
+
+But ... Can we really see a difference between red and blue states ?
+
+Now, let's look at the distribution of these findings. We plot a parameter for a minority (ex. the hit rate for black drivers) against the one for white drivers. The ratio should be 1, with a point on the plot at the level of the diagonal we plot. See the results here:
+
 ![Hit, national](/assets/img/hit rate, national.png){: .mx-auto.d-block :}
 ![Threshold, national](/assets/img/threshold, national.png){: .mx-auto.d-block :}
 
-Visually, one can see that the hit rates and thresholds for non-Caucasian minorities are generally lower than their equivalent for white drivers. Note that we have grouped hispanic and black drivers together as non-Caucasian and put them in the same plot in order to check any differences within the minorities compared to white drivers.
+Oops, can you see how the majority of the points are below the diagonal, with a particulary long distance in the threshold plot in blue states (left plot, below).
+
+More generally, we can observe that: 
+- there are clearly more points below the diagonal than on and above it
+- for the **hit rates, it doesn't matter if you're in a blue or red state**: hispanic drivers are even further below the diagonal than for black drivers. This means that searches on hispanic drivers have lower relative hit rates than the ones on black drivers.
+- for the **threshold**: in **red states**, we observe the same pattern, with lower threshold for hispanic drivers than for black drivers. In **blue states** however, we observe the same disparity for both race.
+
+But be careful: there are a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points correspond to the number of police search per year for this race in the county considered
+
+As a conclusion : Non-Caucasian drivers have lower values for hit rates and threshold in all color of state. Moreover, the gap widens even more for hispanic drivers.
 
 ## Statistics
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
-The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results! For example, a blue county within a red state will distort our correlation study. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results county by county. 
+The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results! For example, a blue county within a red state will distort our correlation study. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results county by county.
 
 # Let's take a closer look !
 ## Texas counties blue/red repartition

@@ -7,9 +7,6 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 
 ---
 
-# A worrying political context
-No need to remind you of the many criticisms to Donald Trump about his various forms of discrimination, especially racism. His image and lack of ideology is worrying, especially as it could reflect an atmosphere within his electorate, with racism between individuals and also in official institutions such as the police.
-At a time when the Black Lives Matter movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA... What we want to know is: is there a racist bias in police stops in the US ? Is there any link between our future results and the political inclination of the region studied ? 
 
 # Let's quantify racism
 ## What data are we looking at ?
