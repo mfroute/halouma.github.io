@@ -51,7 +51,7 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
     <td class="tg-0lax">Number of searches per year</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="color:Maroon">Red</span></td>
+    <td align = "center" class="tg-0lax"><span style="color:Maroon">Red</span></td>
     <td class="tg-0lax"> 2 104 964.4</span></td>
     <td class="tg-0lax"> 47 958.6 </span></td>
   </tr>
