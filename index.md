@@ -17,20 +17,18 @@ Stanford's open policing study has shown how police behaviour can suggest presen
 
 # Let's quantify racial bias
 ## What data are we looking at ?
-For this study we used a dataset of 100 million traffic stops across the United States aggregated over varying time periods between 2000s and 2018. We compare this data with the results of the 2016 US presidential elections taken from [The New York Times website](https://www.nytimes.com/elections/2016/results/president).
+For this study we use a dataset of 100 million traffic stops across the United States aggregated over varying time periods between 2000s and 2018. We compare this data with the results of the 2016 US presidential elections taken from [The New York Times website](https://www.nytimes.com/elections/2016/results/president).
 
 ## Is racial bias measurable ?
-This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and colour of the driver.
+This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and skin colour of the driver.
 We focus on two parameters:
 - the **hit rate**, the "success" rate of searches for drug possession during police arrests. 
 If it is lower, it may show a bias on the part of the police officer.
 - the **threshold**: the level of evidence necessary for the police officer to decide to search someone.
 A lower threshold may indicate that the police officer initiated a search with less evidence, which may be biased by the colour of the driver's skin.
 
-.
-After counting these parameters we will **compare the results between <span style="color:Maroon">red</span> and <span style="color:Navy">blue</span> states** !
 
-> **Quick note for better understanding:**  As stated in the paper, the hit rate is "_the proportion of searches that successfully turn up contraband_". The inferred threshold is calculated thanks to the threshold test and is also found in the dataset of the paper. It is known to "_incorporates both the rate at which searches occur, as well as the success rate of those searches_" and reflects the level of the "_evidentiary bar applied when making search decisions_". Therefore, a lower inferred threshold shows an inclination of searching a driver without evidence against him or her, as well as a lower hit rate.
+> **Quick note for better understanding:**  As stated in the paper, the hit rate is "_the proportion of searches that successfully turn up contraband_". The inferred threshold is calculated thanks to the threshold test and is also found in the dataset of the paper. It "_incorporates both the rate at which searches occur, as well as the success rate of those searches_" and reflects the level of the "_evidentiary bar applied when making search decisions_". Therefore, a lower inferred threshold shows an inclination of searching a driver without evidence against him or her, as well as a lower hit rate.
 
 # Comparing red and blue states
 ## Which states and why ?
