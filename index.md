@@ -83,8 +83,8 @@ As a conclusion : **Non-Caucasian drivers have lower values for hit rates and th
 ### Tableau avec normalized and weighted mean:
 
 <p float="left">
-  <img src="/assets/img/blue_national.png" width="500" />
-  <img src="/assets/img/red_national.png" width="500" /> 
+  <img src="/assets/img/blue_national.png" width="300" />
+  <img src="/assets/img/red_national.png" width="300" /> 
 </p>
 
 
