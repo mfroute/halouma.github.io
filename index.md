@@ -85,6 +85,20 @@ As a conclusion : **Non-Caucasian drivers have lower values for hit rates and th
   <img src="/assets/img/blue_national.png" width="350" />
   <img src="/assets/img/red_national.png" width="350" /> 
 </p>
+ 
+Here we have two tables. They contain normalization of party average race specific hit rates and inferred thresholds with respect to white values, and weighted average of normalized data.
+Let's compare red vs blue: normalized means are lower in blue states than in red states. Also, while weighted means tend to be lower than their unweighted equivalent in blue states, the opposite trend is seen with weighted averages in red states. What does this mean? Well, we have differences between the normalized means that are even **bigger** between red and blue states when weighing our data.
+
+Regardless, statistical tests are necessary in order to quantify the **significance** of these differences.
+
+### Mann-Whitney U test
+Okay, but which test is appropriate? After trying out different tests on the distribution of the variables, we prefered to use the Mann-Whitney U test to compare the means because we assume the that the distributions are not normal. Our null hypothesis: means from blue and red states are the same. 
+The null hypothesis will be rejected in the case that the p value is less than 0.05. Rejection of the null hypothesis will support the claim that the means are significantly better.
+The results are as follows:
+| | p-value|
+| :------ |:--- |
+| Not normalized | 2.2283 e-06 |
+| Normalized | 0.14982|
 
 
 ## Our first observations
