@@ -52,13 +52,13 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
   </tr>
   <tr>
     <td align = "center" class="tg-0lax"><span style="color:Maroon">Red</span></td>
-    <td align = "center" class="tg-0lax"> 2 104 964.4</span></td>
-    <td align = "center" class="tg-0lax"> 47 958.6 </span></td>
+    <td align = "center" class="tg-0lax"><span> 2 104 964.4</span></td>
+    <td align = "center" class="tg-0lax"><span> 47 958.6 </span></td>
   </tr>
     <tr>
     <td align = "center" class="tg-0lax"><span style="color:Navy">Blue</span></td>
-    <td align = "center" class="tg-0lax"> 1 071 249.6</span></td>
-    <td align = "center" class="tg-0lax"> 29 642.0 </span></td>
+    <td align = "center" class="tg-0lax"><span> 1 071 249.6</span></td>
+    <td align = "center" class="tg-0lax"><span> 29 642.0 </span></td>
   </tr>
 </tbody>
 </table>
@@ -145,7 +145,7 @@ Okay, let's run some more tests! This time on the mean hit rates and thresholds 
   </tr>
   <tr>
     <td align = "center" class="tg-0lax">Mean Black hit rate</td>
-    <td align = "center" class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">3.5143e-16</span></td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">3.5143e-16</span></td>
   </tr>
   <tr>
     <td align = "center" class="tg-0lax">Mean Hispanic hit rate</td>
@@ -153,7 +153,7 @@ Okay, let's run some more tests! This time on the mean hit rates and thresholds 
   </tr>
   <tr>
     <td align = "center" class="tg-0lax">Mean Black threshold</td>
-    <td align = "center" class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">0.19645</span></td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.19645</span></td>
   </tr>
   <tr>
     <td align = "center" class="tg-0lax">Mean Hispanic threshold</td>
