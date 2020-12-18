@@ -33,9 +33,9 @@ After counting these parameters we will **compare the results between <span styl
 
 # Comparing red and blue states
 ## Which states and why ?
-Selecting which state to represent requires multiple steps. 
+Selecting which states to represent requires multiple steps. 
 First of all, not all states have all of the required information for our study, that is the calculations of hit rate and threshold test. This first narrows us down to the states of: **_Connecticut, Illinois, North Carolina, Rhode Island, South Carolina, Texas, Washington, and Wisconsin_**. 
-Now, let's select states that seem to be most significant: that is, the ones that had the highest percentage of votes for the party that won. This takes out North Carolina, which had a major percentage very close to 50%. Finally, we took out Wisconsin, since it tends to be a swing state.
+Now, let's select states that seem to be most significant: that is, the ones that had the highest percentage of votes for the party that won. This takes out North Carolina, which had a percentage very close to 50%. Finally, we took out Wisconsin, since it tends to be a swing state.
 
 This divides our 6 remaining states into two groups: <span style="color:Maroon">South Carolina and Texas</span> in the red group, and <span style="color:Navy">Illinois, Connecticut, Rhode Island and Washington</span> in the blue group.
 
@@ -73,7 +73,7 @@ Let's have a first look at our data through the following visualization:
 
 ![Hit and threshold, vizualization](/assets/img/Unknown.png){: .mx-auto.d-block :}
 
-Here we _normalized_ black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. Also, a state could have only low hit rates for every ethnic origins, without this indication more or less discrimination.
+Here we _normalized_ black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. This is also necessary because hit rates and thresholds could be low or high over all ethnicities in a state, what matters is the difference relative to the white hit rates and thresholds.
 
 - Can you see how **all thresholds** (_right plot_) **for minorities are lower than the one for white drivers** ?
 - It's almost **the same for the hit rates** (_left plot_) ! Can you spot the two states that make an exception ? (it's Illinois and South Carolina)
