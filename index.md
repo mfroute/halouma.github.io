@@ -8,11 +8,11 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 ---
 # A worrying political context
 
-<img style="padding-right: 5px" align="left" width="500" src="assets/img/manif.png">
+<img style="padding-right: 15px" align="left" width="300" src="assets/img/manif.png">
 
 At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
 
-<img style="padding-right: 20px" align="right" width="400" src="assets/img/blacklivesmatter.png">
+<img style="padding-right: 15px" align="right" width="300" src="assets/img/blacklivesmatter.png">
 
 Today, we study the police behaviour as a barometer of prejudices toward different ethnic origins. No need to tell you that any correlation with a political inclination would be even more questioning about the values spread by certain political parties...
 
@@ -187,8 +187,8 @@ Once again, we are looking at large numbers of police stops - no worries for the
 
 | Texas county group | Number of stops per year | Number of searches per year|
 | :------ |:--- | :--- |
-| <span style="color:Maroon">Red</span> | remplir | remplir |
-| <span style="color:Navy">Blue</span> | remplir | remplir |
+| <span style="color:Maroon">Red counties</span> | 2 827 560 | 23681 |
+| <span style="color:Navy">Blue counties</span> | 1 107 608 | 4153.9 |
 
 ## Comparison of red and blue counties
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
