@@ -190,6 +190,10 @@ Once again, we are looking at large numbers of police stops - no worries for the
 | <span style="color:Navy">Blue counties</span> | 1 107 608 | 4153.9 |
 
 ## Comparison of red and blue counties
+Again, let’s have a first look at our data through the following visualization:
+![Viz, Texas](/assets/img/visual_county.png){: .mx-auto.d-block :}
+**ajouter discussion**
+
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
 ![Hit, Texas](/assets/img/hit_rate_tx.png){: .mx-auto.d-block :}
 ![Threshold, Texas](/assets/img/threshold_tx.png){: .mx-auto.d-block :}
