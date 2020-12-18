@@ -124,6 +124,34 @@ The results are as follows:
 
 We can see that normalizing is important: without normalization the means are clearly not the same! The non-normalized hit rates test supports the claim that the means are significantly different. Meanwhile, the test for normalized hit rates does not enable us to reject the hypothesis that the means are the same. Therefore, from now on, we will only compare normalized values.
 
+Okay, let's run some more tests! This time on the mean hit rates and thresholds for black and hispanic people:
+<center>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">p-value</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mean Black hit rate</td>
+    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">3.5143e-16</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mean Hispanic hit rate</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.08968</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mean Black threshold</td>
+    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">0.19645</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mean Hispanic threshold</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14982</span></td>
+  </tr>
+</tbody>
+</table>
+</center>
+
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
 The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results ! For example, a **blue county within a red state will distort our correlation study**. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results **county by county**.
