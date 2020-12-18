@@ -8,8 +8,8 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 ---
 # A worrying political context
 
-<img style="padding-right: 15px" align="left" width="275" src="assets/img/manif.png">
-At a time where the Black Lives Matter movement has gone global and with an overall denunciation of police violence in many countries we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?\
+<img style="padding-right: 15px" align="left" width="250" src="assets/img/manif.png">
+At a time where the Black Lives Matter movement has gone global and with an overall denunciation of police violence in many countries we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
 
 Stanford's open policing study has shown how police behaviour can suggest presence of prejudice towards different ethnic origins. Needless to say that, if significant, correlations between political inclination and racial disparities in police stops would cause even more questioning on the values represented by certain political parties. 
 
@@ -242,6 +242,8 @@ Okay, juste like with the states' comparison, let's run the Mann-Whitney U test 
 </tbody>
 </table>
 </center>
+
+Given these p values we can only reject the null hypothesis for **mean black and thresholds**, suggesting bias in these thresholds for blue states. The rest of p values are small but not low enough to reject the null hypotheses.
 
 ## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
 What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police stops there. What links the number of police stops and the hit rates and threshold for police searches ?
