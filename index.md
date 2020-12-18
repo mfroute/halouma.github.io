@@ -92,7 +92,7 @@ Oops, can you see how **the majority of the points are below the diagonal**, wit
 More generally, we can observe that: 
 - there are clearly more points below the diagonal than on and above it
 - for the **hit rates, it doesn't matter if you're in a <span style="color:Navy">blue</span> or <span style="color:Maroon">red</span> state**: hispanic drivers are even further below the diagonal than for black drivers. This means that **searches on hispanic drivers have lower relative hit rates** than the ones on black drivers.
-- for the **threshold**: in **<span style="color:Maroon">red states</span>**, we observe the same pattern, with **lower threshold for hispanic drivers** than for black drivers. In **<span style="color:Navy">blue states</span>** however, we observe the **same disparity for both race**.
+- for the **threshold**: in **<span style="color:Maroon">red states</span>**, we observe the same pattern, with **lower threshold for hispanic drivers** than for black drivers. In **<span style="color:Navy">blue states</span>** however, we observe the **same disparity for both races**.
 
 But be careful: there is a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points corresponds to the number of police searches per year for this race in the county considered
 
