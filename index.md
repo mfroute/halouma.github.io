@@ -192,7 +192,9 @@ Once again, we are looking at large numbers of police stops - no worries for the
 
 ## Comparison of red and blue counties
 Again, let’s have a first look at our data through the following visualization:
-![Viz, Texas](/assets/img/visual_county.png)
+<p align="center">
+  <img width="425" src="/assets/img/visual_county.png" />
+</p>
 **ajouter discussion**
 
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
