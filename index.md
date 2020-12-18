@@ -164,10 +164,8 @@ Okay, let's run some more tests! This time on the mean hit rates and thresholds 
 
 Given these p values we can only reject the null hypothesis for **mean black thresholds**, suggesting bias in black thresholds for blue states. The rest of p values are small but not low enough to reject the null hypotheses.
 
-**EST CE QUON RAJOUTE LES TRUCS DE LOUIS QUI ONT UN P VALUE DE 0?**
-
 ## Prediction model
-
+We also trained models on the data that predict the normalised, weighted average for both hit rate and threshold. Our goal was to see whether it associated a significant coefficient to parameters like the party of the state. No such coefficient were found, with large pvalue that cannot allow us to conclude anything.
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
@@ -195,7 +193,12 @@ Again, let’s have a first look at our data through the following visualization
 <p align="center">
   <img width="600" src="/assets/img/visual_county.png" />
 </p>
-**ajouter discussion**
+
+This plot shows normalized hit rates and threshold for both blue and red counties.
+- Same pattern as at the state-level (almost all values below one, so lower than the equivalent for white drivers)
+- Always **lower values for hispanic drivers** than black drivers
+- **Not so big differences in hit rates** between red and blue counties
+- For **thresholds**, a small gap with **lower values for <span style="color:Maroon">red counties</span>**.
 
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
 ![Hit, Texas](/assets/img/hit_rate_tx.png)
@@ -252,12 +255,8 @@ Okay, juste like with the states' comparison, let's run the Mann-Whitney U test 
 
 Given these p values we can only reject the null hypothesis for **mean black and thresholds**, suggesting bias in these thresholds for blue states. The rest of p values are small but not low enough to reject the null hypotheses.
 
-## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
-What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police stops there. What links the number of police stops and the hit rates and threshold for police searches ?
-
-AJOUTER FINDINGS de LOUIS
-
-It seems that the hit rates and threshold are in fact inversly correlated to the number of police stops ! What if police officers, after arresting many people, were more inclined to search drivers for an unknown reason ?
+## Investigation of other parameters
+What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police searches there. We checked if there was a link between the number of searches and the hit rate or threshold, thanks to the Spearman test that measures the dependency between two variables. We found none. This allows us to take away another variable. 
 
 # Can we conclude anything ?
 ## What we cannot say
@@ -266,17 +265,14 @@ Don't draw conclusions too quickly !
 It is very important to remember that we are only _observing_ certain characteristics. They have certainly been chosen because they allow a quantification of clear parameters that can be linked to, among other things, the race of the driver. 
 However, **it is important to remember that this is an observational study** and not an experiment: we do not know all about the environment in which these arrests took place, nor the various parameters that could have affected them - even though we thought of some. **We point out that disparities in these parameters seem correlated to the race of the driver**, but **we do not establish a causal link**, due to the lack of a sufficiently rigorous and varied investigation (historical and political context, sociological study, comparison with other countries, comparison with other types of police intervention, etc.) to conclude in this way.
 
-## What we can say ...
+## What we can say...
 ### Clear conclusions on Non-Caucasian drivers hit rates and thresholds
-#### lower for non caucasian
-as stated in [.....] link to the paper
-#### even lower for hispanic drivers
-...
+As stated in the [Stanford University paper][^2], we did observe lower hit rate and threshold values for non-Caucasian drivers, suggesting a bias in the decision of conducting of search by police officer for these drivers. In addition, the values for Hispanic drivers differed even more markedly from their equivalent for white drivers.
 
 ### No clear conclusion about state major political party
-Although the averages of the normalised parameters are lower in the red states than in the blue states (found thanks to the Mann-Whitney test), the distributions are not obviously different between the two groups of states. Our data and therefore our results remain heterogeneous and have no clear trend according to the colour of the state. As the states include a large number of counties that are themselves very various in terms of police stops and political orientation, we cannot base our study on the state level. If there is a correlation, it is normal that it is not or hardly visible at this level. We have to look at the counties to find out more !
+Although the averages of the normalised parameters are **lower in the red states than in the blue states** (found thanks to the Mann-Whitney test), the global distributions are not obviously different between the two groups of states. Our data and therefore our results remain heterogeneous and have no clear trend according to the colour of the state. As the states include a large number of counties that are themselves very various in terms of police stops and political orientation, we cannot base our study on the state level. If there is a correlation, it is normal that it is not or hardly visible at this level. We have to look at the counties to find out more !
 
-### possible conclusion sur les counties
+### 
  ???? 
 
 # References
