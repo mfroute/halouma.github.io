@@ -81,28 +81,6 @@ As a conclusion : **Non-Caucasian drivers have lower values for hit rates and th
 
 ## Statistics
 ### Tableau avec normalized and weighted mean:
-<table>
- <tr><th><span style="color:Blue">Blue states</span> </th><th><span style="color:Maroon">Red states </span></th></tr>
- <tr><td>
-
- | |Black|Hispanic|
- | :------ |:--- | :--- |
- | Hit rate, normalized | 0.960909 | 0.698504 |
- | Hit rate, weighted and normalized | 0.908968 | 0.689212	|
- | Threshold, normalized | 0.704567 |0.631549 |
- | Threshold, weighted and normalized | 0.571677|0.618790|
-
- </td><td>
-
- | |Black|Hispanic|
- | :------ |:--- | :--- |
- | Hit rate, normalized | 1.011336 | 0.742274 |
- | Hit rate, weighted and normalized | 1.068757 | 0.772833	|
- | Threshold, normalized | 0.968235 |0.659872 |
- | Threshold, weighted and normalized | 0.926526|0.695199|
-
- </td></tr> </table>
- 
 <p float="left">
   <img src="/assets/img/blue_national.png" width="350" />
   <img src="/assets/img/red_national.png" width="350" /> 
