@@ -281,42 +281,12 @@ Although the averages of the normalised parameters are lower in the red states t
 
 # References
 
-[^1]: [Greenpeace, *Bees in Decline*, 2013](http://sos-bees.org/wp-content/uploads/2014/04/BeesInDecline.pdf)
+[^1]: [The New York Times, *2016 Presidential Election Results*, consulted in 2020](https://www.nytimes.com/elections/2016/results/president)
 
-[^2]: [The Balance, _Colony Collapse Disorder and Its Impact on the Economy_, 2019](https://www.thebalance.com/bee-colony-collapse-disorder-facts-and-economic-impact-3305815)
+[^2]: [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab, _The Stanford Open Policing Project_, 2020](https://openpolicing.stanford.edu/)
 
-[^3]: [YaleEnvironment360, _Declining Bee Populations Pose a Threat to Global Agriculture_, 2013](https://e360.yale.edu/features/declining_bee_populations_pose_a_threat_to_global_agriculture)
+[^3]: [Unsplash: photo for everyone, consulted in december 2020](https://unsplash.com/)
 
-[^4]: [Vice, _What Would Happen if All the Bees Went Extinct?_, 2017](https://www.vice.com/en_us/article/d7ezaq/what-would-happen-if-all-the-bees-died-tomorrow)
+[^4]: [Wikipédia, _2016 United States presidential election_](https://en.wikipedia.org/wiki/2016_United_States_presidential_election)
 
-[^5]: [Congressional Research Service, _Bee Health: Background and Issues for Congress_, 2015](http://www.fas.org/sgp/crs/misc/R43191.pdf)
-
-[^6]: [Scientific American, _The Mind-Boggling Math of Migratory Beekeeping_, 2013](https://www.scientificamerican.com/article/migratory-beekeeping-mind-boggling-math/)
-
-[^7]: [Vatorex, _Varroa? No problem – Meet the Asian honeybee_, 2019](https://www.vatorex.ch/en/varroa-no-problem-meet-the-asian-honeybee/)
-
-[^almond_almanac]: [Almond Board of California, _Almond Almanac_, 2018](http://www.almonds.com/sites/default/files/Almond_Almanac_2018_F_revised.pdf)
-
-[^9]: [Kim Flottum, _U.S. Honey Industry Report 2017_, 2018](https://www.beeculture.com/u-s-honey-industry-report-2017/)
-
-[^10]: [TNAU Agritech, _Types of Honey Bee_, 2014](http://agritech.tnau.ac.in/farm_enterprises/fe_api_typesofhoneybee.html)
-
-[^lack_bee]: [Los Angeles Time, _For Almond Growers, Honeybee Shortage Is a Hard Nut to Crack_, 2005](https://www.latimes.com/archives/la-xpm-2005-may-07-fi-almonds7-story.html)
-
-[^bee_practice]: [California Almond Board, _Honey Bee best Management Practices_, 2014](http://www.almonds.com/pollination)
-
-[^drought]: [Growing Produce, _Impacts Of Drought On Almond Production_, 2014](https://www.growingproduce.com/fruits/impacts-of-drought-on-almond-production/)
-
-[^beekeeping_canada]: [Apimondia, _beekeeping in Canada_, 2019](https://www.apimondia2019.com/beekeeping-in-canada/)
-
-[^fake_honey]: [Forbes, _Honey Is World's Third Most Faked Food_, 2016](https://www.forbes.com/sites/larryolmsted/2016/07/15/exclusive-book-excerpt-honey-is-worlds-third-most-faked-food/#432d1244f095)
-
-[^adulterated_honey]: [Nature, _Authenticity and geographic origin of global honeys determined using carbon isotope ratios and trace elements_, 2018](https://www.nature.com/articles/s41598-018-32764-w)
-
-[^winnie_pooh]: [CSB News, _Winnie the Pooh censored in China after President Xi Jinping comparisons_, 2017](https://www.cbsnews.com/news/winnie-the-pooh-censored-china-president-xi-jinping-comparisons/)
-
-[^africa_no_data]: [FAO, _Methodology of Crops data_, 2019](http://fenixservices.fao.org/faostat/static/documents/QA/QL_methodology_e.pdf)
-
-[^honeygate]: [Reuters, _U.S. charges five in 'Honeygate' anti-dumping probe_, 2013](https://www.reuters.com/article/usa-china-honey/u-s-charges-five-in-honeygate-anti-dumping-probe-idUSL1N0BKCRX20130220)
-
-# Thanks for your attention ! 
+# Thank you for your attention ! 
