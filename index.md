@@ -53,7 +53,7 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
     </tr>
 </table>
 </center>
-Okay, we're talking _millions_ of data points. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
+Okay, we're talking _millions_ of samples. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
 
 ## Hit rates and threshold in blue states compared to red states
 
@@ -98,8 +98,9 @@ Let's compare red vs blue: normalized means are lower in blue states than in red
 Regardless, statistical tests are necessary in order to quantify the **significance** of these differences.
 
 ### Mann-Whitney U test
-Okay, but which test is appropriate? After trying out different tests on the distribution of the variables, we prefered to use the Mann-Whitney U test to compare the means because we assume the that the distributions are not normal. Our null hypothesis: means from blue and red states are the same. 
+Okay, but which test is appropriate? After trying out different tests on the distribution of the variables, we prefered to use the Mann-Whitney U test to compare the means because we assume that the distributions are not normal. Our null hypothesis: means from blue and red states are the same. 
 The null hypothesis will be rejected in the case that the p value is less than 0.05. Rejection of the null hypothesis will support the claim that the means are significantly better.
+
 The results are as follows:
 
 <center>
@@ -120,6 +121,8 @@ The results are as follows:
 </tbody>
 </table>
 </center>
+
+We can see that normalizing is important: without normalization the means are clearly not the same! The non-normalized hit rates test supports the claim that the means are significantly different. Meanwhile, the test for normalized hit rates does not enable us to reject the hypothesis that the means are the same. Therefore, from now on, we will only compare normalized values.
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
