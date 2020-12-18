@@ -168,7 +168,7 @@ Okay, let's run some more tests! This time on the mean hit rates and thresholds 
 Given these p values we can only reject the null hypothesis for **mean black thresholds**, suggesting bias in black thresholds for blue states. The rest of p values are small but not low enough to reject the null hypotheses.
 
 ## Prediction model
-We also trained models on the data that predict the normalised, weighted average for both hit rate and threshold. Our goal was to see whether it associated a significant coefficient to parameters like the party of the state. No such coefficient were found, with large pvalue that cannot allow us to conclude anything.
+We also trained models on the data that predict the normalised, weighted average for both hit rate and threshold. Our goal was to check whether a significant coefficient was associated to certain parameters such as the party of the state. No such coefficient was found, and large p-values did not allow us to conclude anything.
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
