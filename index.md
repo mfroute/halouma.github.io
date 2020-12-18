@@ -10,7 +10,7 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 
 <img style="padding-right: 15px" align="left" width="300" src="assets/img/manif.png">
 
-At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
+At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?\
 Today, we study the police behaviour as a barometer of prejudices toward different ethnic origins. No need to tell you that any correlation with a political inclination would be even more questioning about the values spread by certain political parties...
 
 <img style="padding-right: 15px" align="right" width="300" src="assets/img/blacklivesmatter.png">
