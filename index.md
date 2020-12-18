@@ -283,7 +283,7 @@ Although the averages of the normalised parameters are **lower in the red states
 
 [^2] : [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab, _The Stanford Open Policing Project_, 2020](https://openpolicing.stanford.edu/)
 
-[^3] : [Unsplash: photo for everyone, consulted in december 2020](https://unsplash.com/)
+[^3] : [Unsplash: photos for everyone, consulted in december 2020](https://unsplash.com/)
 
 [^4] : [Wikipédia, _2016 United States presidential election_](https://en.wikipedia.org/wiki/2016_United_States_presidential_election)
 
