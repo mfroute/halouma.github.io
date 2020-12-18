@@ -169,8 +169,8 @@ Given these p values we can only reject the null hypothesis for **mean black thr
 We also trained models on the data that predict the normalised, weighted average for both hit rate and threshold. Our goal was to check whether a significant coefficient was associated to certain parameters such as the party of the state. No such coefficient was found, and large p-values did not allow us to conclude anything.
 
 ## Our first observations
-Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
-The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results ! For example, a **blue county within a red state will distort our correlation study**. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results **county by county**.
+Well... Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
+The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results ! For example, a **blue county within a red state will distort our correlation study**. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties vs red counties, and we will analyze the results **county by county**.
 
 # Let's take a closer look !
 ## Texas counties: <span style="color:Navy">blue</span> and <span style="color:Maroon">red</span> repartition
