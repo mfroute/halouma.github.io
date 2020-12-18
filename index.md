@@ -110,14 +110,7 @@ The results are as follows:
     </tr>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
+<center>
 <table class="tg">
 <tbody>
   <tr>
@@ -134,6 +127,7 @@ The results are as follows:
   </tr>
 </tbody>
 </table>
+</center>
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
