@@ -29,6 +29,8 @@ If it is lower, it may also show a bias on the part of the police officer.
 .
 After counting these parameters we will **compare the results between <span style="color:Maroon">red</span> and <span style="color:Navy">blue</span> states** !
 
+> **Quick note for better understanding:**  As stated in [the paper][^2], the hit rate is "_the proportion of searches that successfully turn up contraband_". The inferred threshold is calculated thanks to the threshold test and is also found in the dataset of the paper. It is known to "_incorporates both the rate at which searches occur, as well as the success rate of those searches_" and reflects the level of the "_evidentiary bar applied when making search decisions_". Therefore, a lower inferred threshold shows an inclination of searching a driver without evidence against him or her, as well as a lower hit rate.
+
 # Comparing red and blue states
 ## Which states and why ?
 Selecting which state to represent requires multiple steps. 
@@ -277,12 +279,12 @@ Although the averages of the normalised parameters are **lower in the red states
 
 # References
 
-[^1]: [The New York Times, *2016 Presidential Election Results*, consulted in 2020](https://www.nytimes.com/elections/2016/results/president)
+[^1] : [The New York Times, *2016 Presidential Election Results*, consulted in 2020](https://www.nytimes.com/elections/2016/results/president)
 
-[^2]: [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab, _The Stanford Open Policing Project_, 2020](https://openpolicing.stanford.edu/)
+[^2] : [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab, _The Stanford Open Policing Project_, 2020](https://openpolicing.stanford.edu/)
 
-[^3]: [Unsplash: photo for everyone, consulted in december 2020](https://unsplash.com/)
+[^3] : [Unsplash: photo for everyone, consulted in december 2020](https://unsplash.com/)
 
-[^4]: [Wikipédia, _2016 United States presidential election_](https://en.wikipedia.org/wiki/2016_United_States_presidential_election)
+[^4] : [Wikipédia, _2016 United States presidential election_](https://en.wikipedia.org/wiki/2016_United_States_presidential_election)
 
 # Thank you for your attention ! 
