@@ -103,9 +103,8 @@ As a conclusion : **Non-Caucasian drivers have lower values for hit rates and th
 
 </td></tr> </table>
 <p float="left">
-  <img src="/img1.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
+  <img src="/assets/blue_national.png" width="100" />
+  <img src="/assets/red_national.png" width="100" /> 
 </p>
 
 
