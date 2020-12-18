@@ -110,6 +110,31 @@ The results are as follows:
     </tr>
 </table>
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">p-value</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Non-normalized</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283 e-06</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Normalized</td>
+    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14982</span></td>
+  </tr>
+</tbody>
+</table>
+
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
 The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results ! For example, a **blue county within a red state will distort our correlation study**. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results **county by county**.
