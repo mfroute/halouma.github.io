@@ -23,9 +23,10 @@ For this study we used a dataset of 100 million traffic stops across the United 
 This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and colour of the driver.
 We focus on two parameters:
 - the **hit rate**, the "success" rate of searches for drug possession during police arrests. 
-A lower hit rate may indicate that the police officer initiated a search with less evidence, which may be biased by the colour of the driver's skin.  
+If it is lower, it may show a bias on the part of the police officer.
 - the **threshold**: the level of evidence necessary for the police officer to decide to search someone.
-If it is lower, it may also show a bias on the part of the police officer.
+A lower threshold may indicate that the police officer initiated a search with less evidence, which may be biased by the colour of the driver's skin.
+
 .
 After counting these parameters we will **compare the results between <span style="color:Maroon">red</span> and <span style="color:Navy">blue</span> states** !
 
@@ -93,7 +94,7 @@ More generally, we can observe that:
 - for the **hit rates, it doesn't matter if you're in a <span style="color:Navy">blue</span> or <span style="color:Maroon">red</span> state**: hispanic drivers are even further below the diagonal than for black drivers. This means that **searches on hispanic drivers have lower relative hit rates** than the ones on black drivers.
 - for the **threshold**: in **<span style="color:Maroon">red states</span>**, we observe the same pattern, with **lower threshold for hispanic drivers** than for black drivers. In **<span style="color:Navy">blue states</span>** however, we observe the **same disparity for both race**.
 
-But be careful: there are a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points correspond to the number of police search per year for this race in the county considered
+But be careful: there is a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points corresponds to the number of police searches per year for this race in the county considered
 
 As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in _all_ color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
 
@@ -282,7 +283,7 @@ Although the averages of the normalised parameters are **lower in the red states
 # References
 - [New York Times, 2016 Presidential Election Results](https://www.nytimes.com/elections/2016/results/president), consulted in 2020
 
-- [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab] (https://openpolicing.stanford.edu/), The Stanford Open Policing Project, 2020
+- [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab](https://openpolicing.stanford.edu/), The Stanford Open Policing Project, 2020
 
 - [Unsplash](https://unsplash.com/): photo for everyone, consulted in december 2020: 
 
