@@ -71,7 +71,7 @@ Okay, we're talking _millions_ of samples. Looks big enough! Let's proceed with 
 
 Let's have a first look at our data through the following visualization:
 
-![Hit and threshold, vizualization](/assets/img/Unknown.png){: .mx-auto.d-block :}
+![Hit and threshold, vizualization](/assets/img/Unknown.png)
 
 Here we _normalized_ black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. This is also necessary because hit rates and thresholds could be low or high over all ethnicities in a state, what matters is the difference relative to the white hit rates and thresholds.
 
@@ -83,8 +83,8 @@ But ... Can we **_really_** see a difference between red and blue states here ?
 
 Now, let's look at the **distribution** of these findings. We plot a parameter for a minority (_ex. the hit rate for black drivers_) against the one for white drivers. **The ratio minority/white should be 1** if there is no disparity, with a point on the plot at the level of the diagonal we plot. See the results here:
 
-![Hit, national](/assets/img/hit rate, national.png){: .mx-auto.d-block :}
-![Threshold, national](/assets/img/threshold, national.png){: .mx-auto.d-block :}
+![Hit, national](/assets/img/hit rate, national.png)
+![Threshold, national](/assets/img/threshold, national.png)
 
 Oops, can you see how **the majority of the points are below the diagonal**, with a particulary long distance in the threshold plot in blue states (_left plot, below_).
 
