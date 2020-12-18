@@ -82,7 +82,7 @@ As a conclusion : **Non-Caucasian drivers have lower values for hit rates and th
 ## Statistics
 ### Tableau avec normalized and weighted mean:
 <table>
-<tr><th>Blue states</th><th>Red states</th></tr>
+<tr><th><span style="color:Blue">Blue states</span> </th><th><span style="color:Maroon">Red states </span></th></tr>
 <tr><td>
  
 | |Black|Hispanic|White|
@@ -96,27 +96,17 @@ As a conclusion : **Non-Caucasian drivers have lower values for hit rates and th
 
 | |Black|Hispanic|White|
 | :------ |:--- | :--- | :--- |
-| Hit rate, normalized | 0.960909 | 0.698504 | 1 | 
-| Hit rate, weighted and normalized | 0.908968 | 0.689212	|1 |
-| Threshold, normalized | 0.704567 |0.631549 |1 |
-| Threshold, weighted and normalized | 0.571677|0.618790| 1 |
+| Hit rate, normalized | 1.011336 | 0.742274 | 1 | 
+| Hit rate, weighted and normalized | 1.068757 | 0.772833	|1 |
+| Threshold, normalized | 0.968235 |0.659872 |1 |
+| Threshold, weighted and normalized | 0.926526|0.695199| 1 |
 
 </td></tr> </table>
-
-|Blue states|Red States|
-|--|--|
-|| |Black|Hispanic|White|
-| :------ |:--- | :--- | :--- |
-| Hit rate, normalized | 0.960909 | 0.698504 | 1 | 
-| Hit rate, weighted and normalized | 0.908968 | 0.689212	|1 |
-| Threshold, normalized | 0.704567 |0.631549 |1 |
-| Threshold, weighted and normalized | 0.571677|0.618790| 1 || | |Black|Hispanic|White|
-| :------ |:--- | :--- | :--- |
-| Hit rate, normalized | 0.960909 | 0.698504 | 1 | 
-| Hit rate, weighted and normalized | 0.908968 | 0.689212	|1 |
-| Threshold, normalized | 0.704567 |0.631549 |1 |
-| Threshold, weighted and normalized | 0.571677|0.618790| 1 |
-|
+<p float="left">
+  <img src="/img1.png" width="100" />
+  <img src="/img2.png" width="100" /> 
+  <img src="/img3.png" width="100" />
+</p>
 
 
 ## Our first observations
