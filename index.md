@@ -208,27 +208,10 @@ About red and blue differences:
 
 ## Statistics
 ### Tableau avec normalized and weighted mean:
-<table>
-  <tr><th><span style="color:Blue">Blue counties </span> </th><th><span style="color:Maroon">Red counties</span></th></tr>
-  <tr><td>
-
-  | |Black|Hispanic|
-  | :------ |:--- | :--- |
-  | Hit rate, normalized | 0.904808 | 0.850641 |
-  | Hit rate, weighted and normalized | 0.953272 | 0.828129	|
-  | Threshold, normalized | 1.092983 |0.801940 |
-  | Threshold, weighted and normalized | 1.082935 |0.852314|
-
-  </td><td>
-
-  | |Black|Hispanic|
-  | :------ |:--- | :--- |
-  | Hit rate, normalized | 0.982982 | 0.771545 |
-  | Hit rate, weighted and normalized | 0.997822 | 0.797633	|
-  | Threshold, normalized | 0.976147 | 0.689574 |
-  | Threshold, weighted and normalized | 0.984800 | 0.688708 |
-
-  </td></tr> </table>
+<p float="left">
+  <img src="/assets/img/blue_tx.png" width="350" />
+  <img src="/assets/img/red_tx.png" width="350" /> 
+</p>
 
  
 ## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
