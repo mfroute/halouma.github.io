@@ -33,7 +33,7 @@ After counting these parameters we will **compare the results between <span styl
 # Comparing red and blue states
 ## Which states and why ?
 Selecting which state to represent requires multiple steps. 
-First of all, not all states have all of the required information for our study, that is the calculations of hit rate and threshold test. This first narrows us down to the states of: _Connecticut, Illinois, North Carolina, Rhode Island, South Carolina, Texas, Washington, and Wisconsin_. 
+First of all, not all states have all of the required information for our study, that is the calculations of hit rate and threshold test. This first narrows us down to the states of: **_Connecticut, Illinois, North Carolina, Rhode Island, South Carolina, Texas, Washington, and Wisconsin_**. 
 Now, let's select states that seem to be most significant: that is, the ones that had the highest percentage of votes for the party that one. This takes out North Carolina, which had a major percentage very close to 50%. Finally, we took out Wisconsin, since it tends to be a swing state.
 
 This divides our 6 remaining states into two groups: <span style="color:Maroon">South Carolina and Texas</span> in the red group, and <span style="color:Navy">Illinois, Connecticut, Rhode Island and Washington</span> in the blue group.
@@ -57,18 +57,18 @@ Let's have a first look at our data through the following visualization:
 
 Here we _normalized_ black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. Also, a state could have only low hit rates for every ethnic origins, without this indication more or less discrimination.
 
-- Can you see how all thresholds (right plot) for minorities are lower than the one for white drivers ?
-- It's almost the same for the hit rates (left plot) ! Can you spot the two states that make an exception ? (it's Illinois and South Carolina)
-- All parameters for hispanic drivers are lower than for black drivers, with a few exception where they're the same (hit rate in Connecticut, threshold in Connecticut and Illinois)
+- Can you see how **all thresholds** (_right plot_) **for minorities are lower than the one for white drivers** ?
+- It's almost **the same for the hit rates** (_left plot_) ! Can you spot the two states that make an exception ? (it's Illinois and South Carolina)
+- All **parameters for hispanic drivers are lower than for black drivers**, with a few exception where they're the same (hit rate in Connecticut, threshold in Connecticut and Illinois)
 
-But ... Can we really see a difference between red and blue states ?
+But ... Can we **_really_** see a difference between red and blue states here ?
 
-Now, let's look at the distribution of these findings. We plot a parameter for a minority (ex. the hit rate for black drivers) against the one for white drivers. The ratio should be 1, with a point on the plot at the level of the diagonal we plot. See the results here:
+Now, let's look at the **distribution** of these findings. We plot a parameter for a minority (_ex. the hit rate for black drivers_) against the one for white drivers. **The ratio minority/white should be 1** if there is no disparity, with a point on the plot at the level of the diagonal we plot. See the results here:
 
 ![Hit, national](/assets/img/hit rate, national.png){: .mx-auto.d-block :}
 ![Threshold, national](/assets/img/threshold, national.png){: .mx-auto.d-block :}
 
-Oops, can you see how the majority of the points are below the diagonal, with a particulary long distance in the threshold plot in blue states (left plot, below).
+Oops, can you see how **the majority of the points are below the diagonal**, with a particulary long distance in the threshold plot in blue states (_left plot, below_).
 
 More generally, we can observe that: 
 - there are clearly more points below the diagonal than on and above it
@@ -77,7 +77,7 @@ More generally, we can observe that:
 
 But be careful: there are a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points correspond to the number of police search per year for this race in the county considered
 
-As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in all color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
+As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in _all_ color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
 
 ## Statistics
 
@@ -86,8 +86,12 @@ Oops. Apparently there is a significant difference according to our statistical 
 The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results ! For example, a **blue county within a red state will distort our correlation study**. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results **county by county**.
 
 # Let's take a closer look !
-## Texas counties blue/red repartition
-For our study, we has a closer look at Texas counties, which, as a red states, includes both red and blue counties. Big cities tend to be located in blue counties, whereas more rural areas represent red counties. Let's look at how the hit rate and threshold repartition changes based on the county color.
+## Texas counties: <span style="color:Navy">blue</span> and <span style="color:Maroon">red</span> repartition
+As a start, here's a map of election results in Texas, each portion being a county. See how many blue counties there are even when Texas is a traditionnal red state ?
+Also, note that big cities tend to be located in blue counties, whereas more rural areas represent red counties. Dallas is the little blue squared, isolated amoung red ones in the top right region !
+<img align="middle" width="200" src="assets/img/texas.png">
+
+Let's look at how the hit rate and threshold repartition changes based on the county color.
 
 Once again, we are looking at large numbers of police stops - no worries for the significancy of our results ! See by yourself : 
 
@@ -109,10 +113,38 @@ About disparities :
 - some relative hit rates and thresholds for black drivers are even above the diagonal, but almost none for hispanic drivers
 
 About red and blue differences:
-- red counties tend to have very spread points, some are really far below the diagonal. In the blue states we don't see points that far away.
-- blue counties points are not numerous, but some represent a large numbers of police searches. Their repartition is globally close to the diagonal.
-- all parameters seem to be higher in red counties, even for white drivers: the dots are located in the middle of the diagonal, with no dot close to the origin. Why is that ?
+- Red counties tend to have very <span style="color:Maroon">spread points</span>and some are <span style="color:Maroon">really far below the diagonal</span>. In the blue states we don't see points that far away.
+- Blue counties points are not numerous, but some represent a large numbers of police searches. Their repartition is <span style="color:Navy">globally close to the diagonal</span>.
+- all parameters seem to be higher in red counties, even for white drivers: the dots are located in the middle of the diagonal, with no dot close to the origin. Why is that ? We will try to answer this question at the end of our data story.
 
-## Rajouter les tests sur les counties
+## Stats sur les counties
+
+ 
+## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
+What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police stops there. What links the number of police stops and the hit rates and threshold for police searches ?
+
+AJOUTER FINDINGS de LOUIS
+
+It seems that the hit rates and threshold are in fact inversly correlated to the number of police stops ! What if police officers, after arresting many people, were more inclined to search drivers for an unknown reason ?
+
+# Can we conclude anything ?
+## What we cannot say
+Don't draw conclusions too quickly !
+
+It is very important to remember that we are only _observing_ certain characteristics. They have certainly been chosen because they allow a quantification of clear parameters that can be linked to, among other things, the race of the driver. 
+However, **it is important to remember that this is an observational study** and not an experiment: we do not know all about the environment in which these arrests took place, nor the various parameters that could have affected them - even though we thought of some. **We point out that disparities in these parameters seem correlated to the race of the driver**, but **we do not establish a causal link**, due to the lack of a sufficiently rigorous and varied investigation (historical and political context, sociological study, comparison with other countries, comparison with other types of police intervention, etc.) to conclude in this way.
+
+## What we can say ...
+### Clearly lower hit rates and threshold for non-Caucasian drivers
+as stated in [.....] link to the paper
+
+### Lower hit rates and thresholds for hispanic drivers
+
+### No clear conclusion about state major political party
+Although the averages of the normalised parameters are lower in the red states than in the blue states (found thanks to the Mann-Whitney test), the distributions are not obviously different between the two groups of states. Our data and therefore our results remain heterogeneous and have no clear trend according to the colour of the state. As the states include a large number of counties that are themselves very various in terms of police stops and political orientation, we cannot base our study on the state level. If there is a correlation, it is normal that it is not or hardly visible at this level. We have to look at the counties to find out more !
+
+### possible conclusion sur les counties
+ ???? 
+
 
 ## Conclusion
