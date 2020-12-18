@@ -80,7 +80,7 @@ Here we _normalized_ black and hispanic hit rates in each state with the respect
 
 But ... Can we **_really_** see a difference between red and blue states here ?
 
-In order to answer this question, let's look at the **distribution** of these findings. We plot a parameter for a minority (_ex. the hit rate for black drivers_) against the one for white drivers. **The ratio minority/white should be 1** if there is no disparity, with a point on the plot at the level of the diagonal we plot. See the results here:
+In order to answer this question, let's look at the **distribution** of the findings. We plot a parameter for a minority (_ex. the hit rate for black drivers_) against the same one for white drivers. **The ratio minority/white should be 1** if there is no disparity, shown by a point on the plot on the diagonal y=x. See the results here:
 
 ![Hit, national](/assets/img/hit rate, national.png)
 ![Threshold, national](/assets/img/threshold, national.png)
