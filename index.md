@@ -41,6 +41,7 @@ This divides our 6 remaining states into two groups: <span style="color:Maroon">
 ## Data vizualization 
 
 Before plotting our rates, we first want to check if our dataset is big enough: are there enough police stops and searches for our results to be significant? The results are in the following table: 
+<center>
 <table>
     <tr>
         <td>
@@ -51,6 +52,7 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
       </td>
     </tr>
 </table>
+</center>
 Okay, we're talking _millions_ of data points. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
 
 ## Hit rates and threshold in blue states compared to red states
@@ -99,16 +101,6 @@ Regardless, statistical tests are necessary in order to quantify the **significa
 Okay, but which test is appropriate? After trying out different tests on the distribution of the variables, we prefered to use the Mann-Whitney U test to compare the means because we assume the that the distributions are not normal. Our null hypothesis: means from blue and red states are the same. 
 The null hypothesis will be rejected in the case that the p value is less than 0.05. Rejection of the null hypothesis will support the claim that the means are significantly better.
 The results are as follows:
-<table>
-    <tr>
-        <td>
-| | p-value|
-| :------: |:---: |
-| Not normalized | 2.2283 e-06 |
-| Normalized | 0.14982|
-      </td>
-    </tr>
-</table>
 
 <center>
 <table class="tg">
@@ -119,7 +111,7 @@ The results are as follows:
   </tr>
   <tr>
     <td class="tg-0lax">Non-normalized</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283 e-06</span></td>
+    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283 e-06</span></td>
   </tr>
   <tr>
     <td class="tg-0lax">Normalized</td>
