@@ -85,16 +85,16 @@ In order to answer this question, let's look at the **distribution** of the find
 ![Hit, national](/assets/img/hit rate, national.png)
 ![Threshold, national](/assets/img/threshold, national.png)
 
-Oops, can you see how **the majority of the points are below the diagonal**, with a particulary long distance in the threshold plot in blue states (_left plot, below_).
+Can you see how **the majority of the points are below the diagonal**, with a particulary long distance in the threshold plot in blue states (_left plot, below_)?
 
 More generally, we can observe that: 
-- there are clearly more points below the diagonal than on and above it
-- for the **hit rates, it doesn't matter if you're in a <span style="color:Navy">blue</span> or <span style="color:Maroon">red</span> state**: hispanic drivers are even further below the diagonal than for black drivers. This means that **searches on hispanic drivers have lower relative hit rates** than the ones on black drivers.
-- for the **threshold**: in **<span style="color:Maroon">red states</span>**, we observe the same pattern, with **lower threshold for hispanic drivers** than for black drivers. In **<span style="color:Navy">blue states</span>** however, we observe the **same disparity for both races**.
+- there are clearly more points below the diagonal than directly on and above it
+- for the **hit rates, it doesn't matter if you're in a <span style="color:Navy">blue</span> or <span style="color:Maroon">red</span> state**: hispanic drivers are placed further below the diagonal than black drivers. This means that **searches on hispanic drivers have lower relative hit rates** than the ones on black drivers.
+- for the **thresholds**: in **<span style="color:Maroon">red states</span>**, we observe the same pattern, with **lower thresholds for hispanic drivers** than for black drivers. In **<span style="color:Navy">blue states</span>** however, we observe the **same disparity for both races**.
 
-But be careful: there is a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points corresponds to the number of police searches per year for this race in the county considered
+But let's be careful: there is a large amount of points in red states and far less in blue states, which can create bias in our visualization. Note that the size of the points correspond to the number of police searches per year for the two races plottted in the county considered.
 
-As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in _all_ color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
+As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold than white drivers, in _both_ colors of state. Moreover, this gap widens for hispanic drivers** !
 
 ## Statistics
 ### Table with normalized and weighted mean:
