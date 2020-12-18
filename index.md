@@ -13,7 +13,7 @@ At a time where the Black Lives Matter movement has gone global and with an over
 
 Stanford's open policing study has shown how police behaviour can suggest presence of prejudice towards different ethnic origins. Needless to say that, if significant, correlations between political inclination and racial disparities in police stops would cause even more questioning on the values represented by certain political parties. 
 
-<img style="padding-right: 15px" align="right" width="250" src="assets/img/blacklivesmatter.png">
+<img style="padding-right: 15px" align="right" width="225" src="assets/img/blacklivesmatter.png">
 
 # Let's quantify racial bias
 ## What data are we looking at ?
