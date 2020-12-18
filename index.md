@@ -41,18 +41,29 @@ This divides our 6 remaining states into two groups: <span style="color:Maroon">
 ## Data vizualization 
 
 Before plotting our rates, we first want to check if our dataset is big enough: are there enough police stops and searches for our results to be significant? The results are in the following table: 
+
 <center>
-<table>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-0lax">State group</td>
+    <td class="tg-0lax">Number of stops per year</td>
+    <td class="tg-0lax">Number of searches per year</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="color:Maroon">Red</span></td>
+    <td class="tg-0lax"> 2 104 964.4</span></td>
+    <td class="tg-0lax"> 47 958.6 </span></td>
+  </tr>
     <tr>
-        <td>
-| State group | Number of stops per year | Number of searches per year|
-| :------: |:---: | :---: |
-| <span style="color:Maroon">Red</span> | 2 104 964.4 | 47 958.6 |
-| <span style="color:Navy">Blue</span> | 1 071 249.6 | 29 642.0 |
-      </td>
-    </tr>
+    <td class="tg-0lax"><span style="color:Navy">Blue</span></td>
+    <td class="tg-0lax"> 1 071 249.6</span></td>
+    <td class="tg-0lax"> 29 642.0 </span></td>
+  </tr>
+</tbody>
 </table>
 </center>
+
 Okay, we're talking _millions_ of samples. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
 
 ## Hit rates and threshold in blue states compared to red states
@@ -112,7 +123,7 @@ The results are as follows:
   </tr>
   <tr>
     <td class="tg-0lax">Non-normalized</td>
-    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283 e-06</span></td>
+    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283e-06</span></td>
   </tr>
   <tr>
     <td class="tg-0lax">Normalized</td>
