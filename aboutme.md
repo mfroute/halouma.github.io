@@ -9,3 +9,5 @@ Behind the Halouma team hide three passionated students: Margaux, Louis and Hann
 ### Our story
 
 We met when we were looking for working partners for ADA. Now nothing separates us anymore ! 
+<img align="middle" width="200" src="assets/img/amis.png">
+
