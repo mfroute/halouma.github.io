@@ -99,7 +99,7 @@ But be careful: there is a large amount of points in red states and far less in 
 As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in _all_ color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
 
 ## Statistics
-### Tableau avec normalized and weighted mean:
+### Table with normalized and weighted mean:
 <p float="left">
   <img src="/assets/img/blue_national.png" width="350" />
   <img src="/assets/img/red_national.png" width="350" /> 
@@ -219,7 +219,7 @@ About red and blue differences:
 - all parameters seem to be higher in red counties, even for white drivers: the dots are located in the middle of the diagonal, with no dot close to the origin. Why is that ? We will try to answer this question at the end of our data story.
 
 ## Statistics
-### Tableau avec normalized and weighted mean:
+### Table with normalized and weighted mean:
 <p float="left">
   <img src="/assets/img/blue_tx.png" width="350" />
   <img src="/assets/img/red_tx.png" width="350" /> 
