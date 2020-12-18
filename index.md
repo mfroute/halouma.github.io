@@ -44,10 +44,10 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
 
 | State group | Number of stops per year | Number of searches per year|
 | :------ |:--- | :--- |
-| Red | 2 104 964.4 | 47 958.6 |
-| Blue | 1 071 249.6 | 29 642.0 |
+| <span style="color:Maroon">Red</span> | 2 104 964.4 | 47 958.6 |
+| <span style="color:Navy">Blue</span> | 1 071 249.6 | 29 642.0 |
 
-Okay, we're talking millions of data points. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
+Okay, we're talking _millions_ of data points. Looks big enough! Let's proceed with our plots for hit rates and threshold tests.
 
 ## Hit rates and threshold in blue states compared to red states
 
@@ -55,11 +55,11 @@ Let's have a first look at our data through the following visualization:
 
 ![Hit and threshold, vizualization](/assets/img/Unknown.png){: .mx-auto.d-block :}
 
-Here we normalized black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. Also, a state could have only low hit rates for every ethnic origins, without this indication more or less discrimination.
+Here we _normalized_ black and hispanic hit rates in each state to the respective white hit rate. That allows to have only numbers between zero and one and visualize in a clearer way the difference between them. Also, a state could have only low hit rates for every ethnic origins, without this indication more or less discrimination.
 
 - Can you see how all thresholds (right plot) for minorities are lower than the one for white drivers ?
-- It's almost the same for the hit rates (left plot) ! Can you spot the two states that make an exception ?
-- All parameters for hispanic drivers are lower than for black drivers, with a few exception where they're the same
+- It's almost the same for the hit rates (left plot) ! Can you spot the two states that make an exception ? (it's Illinois and South Carolina)
+- All parameters for hispanic drivers are lower than for black drivers, with a few exception where they're the same (hit rate in Connecticut, threshold in Connecticut and Illinois)
 
 But ... Can we really see a difference between red and blue states ?
 
@@ -72,18 +72,18 @@ Oops, can you see how the majority of the points are below the diagonal, with a 
 
 More generally, we can observe that: 
 - there are clearly more points below the diagonal than on and above it
-- for the **hit rates, it doesn't matter if you're in a blue or red state**: hispanic drivers are even further below the diagonal than for black drivers. This means that searches on hispanic drivers have lower relative hit rates than the ones on black drivers.
-- for the **threshold**: in **red states**, we observe the same pattern, with lower threshold for hispanic drivers than for black drivers. In **blue states** however, we observe the same disparity for both race.
+- for the **hit rates, it doesn't matter if you're in a <span style="color:Navy">blue</span> or <span style="color:Maroon">red</span> state**: hispanic drivers are even further below the diagonal than for black drivers. This means that **searches on hispanic drivers have lower relative hit rates** than the ones on black drivers.
+- for the **threshold**: in **<span style="color:Maroon">red states</span>**, we observe the same pattern, with **lower threshold for hispanic drivers** than for black drivers. In **<span style="color:Navy">blue states</span>** however, we observe the **same disparity for both race**.
 
 But be careful: there are a large amount of points in red states and far less in blue states, which can trouble and bias visualization. Note that the size of the points correspond to the number of police search per year for this race in the county considered
 
-As a conclusion : Non-Caucasian drivers have lower values for hit rates and threshold in all color of state. Moreover, the gap widens even more for hispanic drivers.
+As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in all color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
 
 ## Statistics
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
-The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results! For example, a blue county within a red state will distort our correlation study. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results county by county.
+The election results we used are state-wide. As they cover a very large population and a very large number of counties, they average and homogenize the results ! For example, a **blue county within a red state will distort our correlation study**. In order to have more accurate results and more representative percentages of the population in each county, we will study blue counties VS red counties, and we will use the results **county by county**.
 
 # Let's take a closer look !
 ## Texas counties blue/red repartition
@@ -93,73 +93,26 @@ Once again, we are looking at large numbers of police stops - no worries for the
 
 | Texas county group | Number of stops per year | Number of searches per year|
 | :------ |:--- | :--- |
-| Red | remplir | remplir |
-| Blue | remplir | remplir |
+| <span style="color:Maroon">Red</span> | remplir | remplir |
+| <span style="color:Navy">Blue</span> | remplir | remplir |
 
 ## Comparison of red and blue counties
 Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
 ![Hit, Texas](/assets/img/hit_rate_tx.png){: .mx-auto.d-block :}
 ![Threshold, Texas](/assets/img/threshold_tx.png){: .mx-auto.d-block :}
 
-## Observations again
+## Our observations
+
+First, let's specify that we have clearly _too few points_ in blue states to allow a global visualization and obvious conclusion drawing from these plots. But still, we can make a few observations :
+About disparities : 
+- **a disparity remains between black and hispanic drivers**, with hispanic hit rates and thresholds further from the diagonal than black ones. **This is seen in county groups** and for all parameters.
+- some relative hit rates and thresholds for black drivers are even above the diagonal, but almost none for hispanic drivers
+
+About red and blue differences:
+- red counties tend to have very spread points, some are really far below the diagonal. In the blue states we don't see points that far away.
+- blue counties points are not numerous, but some represent a large numbers of police searches. Their repartition is globally close to the diagonal.
+- all parameters seem to be higher in red counties, even for white drivers: the dots are located in the middle of the diagonal, with no dot close to the origin. Why is that ?
 
 ## Rajouter les tests sur les counties
 
 ## Conclusion
-
-
-## trucs potentiellement utiles que je laisse au cas où :
-### y a comment faire un tableau, ref à un site, à une image, ligne de codes etc
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
