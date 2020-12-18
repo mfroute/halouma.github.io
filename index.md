@@ -8,7 +8,7 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 ---
 # A worrying political context
 
-<img style="padding-right: 50px" align="left" width="200" src="assets/img/manif.png">
+<img style="padding-right: 150px" align="left" width="200" src="assets/img/manif.png">
 
 At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
 
