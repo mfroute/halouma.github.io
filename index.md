@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Are racial bias and political orientation correlated ?
+title: Are racial bias and political orientation correlated in police stops?
 subtitle: Study of concrete parameters in red and blue regions of the US
 comments: False
 cover-img: /assets/img/1280px-Red_state,_blue_state.png
