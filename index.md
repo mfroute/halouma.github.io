@@ -39,7 +39,7 @@ Now, let's select states that seem to be most significant: that is, the ones tha
 
 This divides our 6 remaining states into two groups: <span style="color:Maroon">South Carolina and Texas</span> in the red group, and <span style="color:Navy">Illinois, Connecticut, Rhode Island and Washington</span> in the blue group.
 
-## Data vizualization 
+## Data visualization 
 
 Before plotting our rates, we first want to check if our dataset is big enough: are there enough police stops and searches for our results to be significant? The results are in the following table: 
 
