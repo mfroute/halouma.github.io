@@ -77,7 +77,7 @@ Here we _normalized_ black and hispanic hit rates in each state to the respectiv
 
 - Can you see how **all thresholds** (_right plot_) **for minorities are lower than the one for white drivers** ?
 - It's almost **the same for the hit rates** (_left plot_) ! Can you spot the two states that make an exception ? (it's Illinois and South Carolina)
-- All **parameters for hispanic drivers are lower than for black drivers**, with a few exception where they're the same (hit rate in Connecticut, threshold in Connecticut and Illinois)
+- All **parameters for hispanic drivers are lower than for black drivers**, with a few exceptions where they're the same (hit rate in Connecticut, threshold in Connecticut and Illinois)
 
 But ... Can we **_really_** see a difference between red and blue states here ?
 
@@ -223,7 +223,9 @@ About red and blue differences:
   <img src="/assets/img/blue_tx.png" width="350" />
   <img src="/assets/img/red_tx.png" width="350" /> 
 </p>
-**ajouter discussion**
+
+Here we have standardised the values by their equivalent for white drivers. Each value (hit rate or threshold) is a proportion of its equivalent (hit rate or threshold for white drivers). We have calculated the average of these values for each political party and race. The averages are obviously weighted by the number of searches in the county.
+We can see that all values are lower in red counties, except the hit rate of black drivers. However, the difference is not obvious. The difference between black and Hispanic drivers is striking, with a constant difference of up to 0.3 between black and Hispanic drivers, the values for Hispanic drivers being lower.
 
 ### Mann-Whitney U test
 Okay, juste like with the states' comparison, let's run the Mann-Whitney U test on the normalized values for each parameter and each race:
@@ -279,10 +281,8 @@ Although the averages of the normalised parameters are **lower in the red states
 
 # References
 - [New York Times, 2016 Presidential Election Results](https://www.nytimes.com/elections/2016/results/president), consulted in 2020
-[NYT]: https://www.nytimes.com/elections/2016/results/president
 
-- [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab](https://openpolicing.stanford.edu/), The Stanford Open Policing Project, 2020
-[Stanford]: https://openpolicing.stanford.edu/
+- [Stanford Computational Journalism Lab and the Stanford Computational Policy Lab] (https://openpolicing.stanford.edu/), The Stanford Open Policing Project, 2020
 
 - [Unsplash](https://unsplash.com/): photo for everyone, consulted in december 2020: 
 
