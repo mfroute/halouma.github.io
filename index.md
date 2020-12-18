@@ -23,20 +23,20 @@ For this study we used a dataset of **100 million traffic stops** across the Uni
 ## Is racial bias measurable ?
 This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and colour of the driver.
 We focus on two parameters:
-- the hit rate, the "success" rate of searches for drug possession during police arrests. 
+- the **hit rate**, the "success" rate of searches for drug possession during police arrests. 
 A lower hit rate may indicate that the police officer initiated a search with less evidence, which may be biased by the colour of the driver's skin.  
-- the threshold: the level of evidence necessary for the police officer to decide to search someone.
+- the **threshold**: the level of evidence necessary for the police officer to decide to search someone.
 If it is lower, it may also show a bias on the part of the police officer.
 .
-After counting these parameters we will **compare the results between <span style="color:red">**red**</span> and <span style="color:blue">**blue**</span> states** !
+After counting these parameters we will **compare the results between <span style="color:Maroon">red</span> and <span style="color:Navy">blue</span> states** !
 
 # Comparing red and blue states
 ## Which states and why ?
 Selecting which state to represent requires multiple steps. 
-First of all, not all states have all of the required information for our study, that is the calculations of hit rate and threshold test. This first narrows us down to the states of: Connecticut, Illinois, North Carolina, Rhode Island, South Carolina, Texas, Washington, and Wisconsin. 
+First of all, not all states have all of the required information for our study, that is the calculations of hit rate and threshold test. This first narrows us down to the states of: _Connecticut, Illinois, North Carolina, Rhode Island, South Carolina, Texas, Washington, and Wisconsin_. 
 Now, let's select states that seem to be most significant: that is, the ones that had the highest percentage of votes for the party that one. This takes out North Carolina, which had a major percentage very close to 50%. Finally, we took out Wisconsin, since it tends to be a swing state.
 
-This divides our 6 remaining states into two groups: South Carolina and Texas in the red group, and Illinois, Connecticut, Rhode Island and Washington in the blue group.
+This divides our 6 remaining states into two groups: <span style="color:Maroon">South Carolina and Texas</span> in the red group, and <span style="color:Navy">Illinois, Connecticut, Rhode Island and Washington</span> in the blue group.
 
 ## Data vizualization 
 
