@@ -174,15 +174,15 @@ The election results we used are state-wide. As they cover a very large populati
 
 # Let's take a closer look !
 ## Texas counties: <span style="color:Navy">blue</span> and <span style="color:Maroon">red</span> repartition
-As a start, here's a map of election results in Texas, each portion being a county. See how many blue counties there are even when Texas is a traditionnal red state ?
-Also, note that big cities tend to be located in blue counties, whereas more rural areas represent red counties. Dallas is the little blue squared, isolated amoung red ones in the top right region !
+As a starter, here's a map of election results in Texas, each portion being a county. See how many blue counties there are, even though Texas is a traditionally red state ?
+Also, note that big cities tend to be located in blue counties, whereas more rural areas represent red counties. For example, Dallas is the small blue square, isolated amoung red ones in the top right region !
 <p align="center">
   <img width="425" src="assets/img/texas.png" />
 </p>
 
 Let's look at how the hit rate and threshold repartition changes based on the county color.
 
-Once again, we are looking at large numbers of police stops - no worries for the significancy of our results ! See by yourself : 
+Once again, we are looking at large numbers of police stops - no worries for the significancy of our results ! See it for yourself : 
 
 | Texas county group | Number of stops per year | Number of searches per year|
 | :------ |:--- | :--- |
@@ -196,12 +196,12 @@ Again, let’s have a first look at our data through the following visualization
 </p>
 
 This plot shows normalized hit rates and threshold for both blue and red counties.
-- Same pattern as at the state-level (almost all values below one, so lower than the equivalent for white drivers)
-- Always **lower values for hispanic drivers** than black drivers
-- **Not so big differences in hit rates** between red and blue counties
+- Same pattern as at for state-level (almost all values below one, so lower than the equivalent for white drivers)
+- Always **lower values for hispanic drivers** than for black drivers
+- **No big differences in hit rates** between red and blue counties
 - For **thresholds**, a small gap with **lower values for <span style="color:Maroon">red counties</span>**.
 
-Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county, not of the state:
+Following we have the equivalent of the previous plots, but at the Texas level, where the points take the color of the county:
 ![Hit, Texas](/assets/img/hit_rate_tx.png)
 ![Threshold, Texas](/assets/img/threshold_tx.png)
 
@@ -212,9 +212,9 @@ About disparities :
 - some relative hit rates and thresholds for black drivers are even above the diagonal, but almost none for hispanic drivers
 
 About red and blue differences:
-- Red counties tend to have very <span style="color:Maroon">spread points</span>and some are <span style="color:Maroon">really far below the diagonal</span>. In the blue states we don't see points that far away.
-- Blue counties points are not numerous, but some represent a large numbers of police searches. Their repartition is <span style="color:Navy">globally close to the diagonal</span>.
-- all parameters seem to be higher in red counties, even for white drivers: the dots are located in the middle of the diagonal, with no dot close to the origin. Why is that ? We will try to answer this question at the end of our data story.
+- Red counties tend to have very <span style="color:Maroon">spread points</span>and some are <span style="color:Maroon">really far below the diagonal</span>. In the blue states, we don't see points that are that far away.
+- Blue counties points are not numerous, but some represent a large number of police searches. Their repartition is <span style="color:Navy">globally close to the diagonal</span>.
+- All parameters seem to be higher in red counties, even for white drivers: the points are located in the middle of the diagonal, with no point close to the origin. 
 
 ## Statistics
 ### Table with normalized and weighted mean:
@@ -275,8 +275,13 @@ As stated in the Stanford University paper, we did observe lower hit rate and th
 ### No clear conclusion about state major political party
 Although the averages of the normalised parameters are **lower in the red states than in the blue states** (found thanks to the Mann-Whitney test), the global distributions are not obviously different between the two groups of states. Our data and therefore our results remain heterogeneous and have no clear trend according to the colour of the state. As the states include a large number of counties that are themselves very various in terms of police stops and political orientation, we cannot base our study on the state level. If there is a correlation, it is normal that it is not or hardly visible at this level. We have to look at the counties to find out more !
 
-### 
- ???? 
+# Overall conclusion
+When you look at counties with more accurate data, you get more results! 
+When comparing thresholds, we found that the red counties in Texas had significantly lower averages. In other words this suggests that the threshold for conducting a search is lower for black and Hispanic drivers in red counties than in blue counties
+
+Furthermore, the model trained on our dataset gives significant weight to the political party of a county in predicting the hit rate and threshold.
+
+These results may be caused by differences in ideology, policing requirements or even socio-economic indicators between the countryside and the city. They may not necessarily be impacted by one political party or another. In short, there are many other correlation factors which we may not have thought of, of course. Since we cannot immediately deduce causalities, we would encourage you to look at these correlations calmly and openly!
 
 # References
 - [New York Times, 2016 Presidential Election Results](https://www.nytimes.com/elections/2016/results/president), consulted in 2020
