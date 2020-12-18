@@ -9,15 +9,15 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 # A worrying political context
 
 <img style="padding-right: 15px" align="left" width="275" src="assets/img/manif.png">
+At a time where the Black Lives Matter movement has gone global and with an overall denunciation of police violence in many countries we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?\
 
-At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?\
-Today, we study the police behaviour as a barometer of prejudices toward different ethnic origins. No need to tell you that any correlation with a political inclination would be even more questioning about the values spread by certain political parties...\
+Stanford's open policing study has shown how police behaviour can suggest presence of prejudice towards different ethnic origins. Needless to say that, if significant, correlations between political inclination and racial disparities in police stops would cause even more questioning on the values represented by certain political parties. 
 
 <img style="padding-right: 15px" align="right" width="275" src="assets/img/blacklivesmatter.png">
 
 # Let's quantify racial bias
 ## What data are we looking at ?
-For this study we used a dataset of **100 million traffic stops** across the United States, with various time ranges for each state. We also compare this data with the [New York Times website](https://www.nytimes.com/elections/2016/results/president), which reports the results to the **US presidential elections of 2016**.
+For this study we used a dataset of 100 million traffic stops across the United States aggregated over varying time periods between 2000s and 2018. We compare this data with the results of the 2016 US presidential elections taken from [The New York Times website](https://www.nytimes.com/elections/2016/results/president).
 
 ## Is racial bias measurable ?
 This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and colour of the driver.
@@ -211,6 +211,37 @@ About red and blue differences:
   <img src="/assets/img/blue_tx.png" width="350" />
   <img src="/assets/img/red_tx.png" width="350" /> 
 </p>
+**ajouter discussion**
+
+### Mann-Whitney U test
+Okay, juste like with the states' comparison, let's run the Mann-Whitney U test on the normalized values for each parameter and each race:
+
+<center>
+<table class="tg">
+<tbody>
+  <tr>
+    <td align = "center" class="tg-0lax"></td>
+    <td align = "center" class="tg-0lax">p-value</td>
+  </tr>
+  <tr>
+    <td align = "center" class="tg-0lax">Mean Black hit rate</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.64224</span></td>
+  </tr>
+  <tr>
+    <td align = "center" class="tg-0lax">Mean Hispanic hit rate</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14101</span></td>
+  </tr>
+  <tr>
+    <td align = "center" class="tg-0lax">Mean Black threshold</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.00734</span></td>
+  </tr>
+  <tr>
+    <td align = "center" class="tg-0lax">Mean Hispanic threshold</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.00641</span></td>
+  </tr>
+</tbody>
+</table>
+</center>
 
 ## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
 What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police stops there. What links the number of police stops and the hit rates and threshold for police searches ?
