@@ -8,7 +8,7 @@ cover-img: /assets/img/1280px-Red_state,_blue_state.png
 ---
 # A worrying political context
 
-<img style="padding-right: 20px" align="left" width="300" src="assets/img/manif.png">
+<img style="padding-right: 5px" align="left" width="500" src="assets/img/manif.png">
 
 At a time of the _Black Lives Matter_ movement, the denunciation of police violence in many countries, with a change of president of the USA approaching, we have decided to take a closer look at the police arrests in the USA. What we want to know is: is there a racist bias in police stops in the US ? If so, what link could it have with the political inclination of the region studied ?
 
@@ -213,7 +213,6 @@ About red and blue differences:
   <img src="/assets/img/red_tx.png" width="350" /> 
 </p>
 
- 
 ## Investigation of other parameters: Trucs que louis a fait sur taille des county et hit rates inversement correlées
 What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police stops there. What links the number of police stops and the hit rates and threshold for police searches ?
 
