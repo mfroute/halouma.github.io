@@ -259,20 +259,20 @@ Okay, juste like with the states' comparison, let's run the Mann-Whitney U test 
 Given these p values we can only reject the null hypothesis for **mean black and thresholds**, suggesting bias in these thresholds for blue states. The rest of p values are small but not low enough to reject the null hypotheses.
 
 ## Investigation of other parameters
-What if other parameters comes into play ? Blue counties are also where cities take place. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police searches there. We checked if there was a link between the number of searches and the hit rate or threshold, thanks to the Spearman test that measures the dependency between two variables. We found none. This allows us to take away another variable. 
+What if other parameters come into play ? Blue counties are also where cities are. Apart from their political orientation in which they usually differ from the countryside, other parameters are to be taken into account. For example, there are more police searches there. We checked if there was a link between the number of searches and the hit rate or threshold, thanks to the Spearman test that measures the dependency between two variables. We found none. This allows us to take away another variable. 
 
 # Can we conclude anything ?
 ## What we cannot say
-Don't draw conclusions too quickly !
+Let's not draw conclusions too quickly !
 
 It is very important to remember that we are only _observing_ certain characteristics. They have certainly been chosen because they allow a quantification of clear parameters that can be linked to, among other things, the race of the driver. 
 However, **it is important to remember that this is an observational study** and not an experiment: we do not know all about the environment in which these arrests took place, nor the various parameters that could have affected them - even though we thought of some. **We point out that disparities in these parameters seem correlated to the race of the driver**, but **we do not establish a causal link**, due to the lack of a sufficiently rigorous and varied investigation (historical and political context, sociological study, comparison with other countries, comparison with other types of police intervention, etc.) to conclude in this way.
 
 ## What we can say...
-### Clear conclusions on Non-Caucasian drivers hit rates and thresholds
+### Clear conclusions on non-Caucasian drivers hit rates and thresholds
 As stated in the Stanford University paper, we did observe lower hit rate and threshold values for non-Caucasian drivers, suggesting a bias in the decision of conducting of search by police officer for these drivers. In addition, the values for Hispanic drivers differed even more markedly from their equivalent for white drivers.
 
-### No clear conclusion about state major political party
+### No clear conclusion on state major political party
 Although the averages of the normalised parameters are **lower in the red states than in the blue states** (found thanks to the Mann-Whitney test), the global distributions are not obviously different between the two groups of states. Our data and therefore our results remain heterogeneous and have no clear trend according to the colour of the state. As the states include a large number of counties that are themselves very various in terms of police stops and political orientation, we cannot base our study on the state level. If there is a correlation, it is normal that it is not or hardly visible at this level. We have to look at the counties to find out more !
 
 # Overall conclusion
