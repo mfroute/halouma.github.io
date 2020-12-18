@@ -177,11 +177,9 @@ The election results we used are state-wide. As they cover a very large populati
 ## Texas counties: <span style="color:Navy">blue</span> and <span style="color:Maroon">red</span> repartition
 As a start, here's a map of election results in Texas, each portion being a county. See how many blue counties there are even when Texas is a traditionnal red state ?
 Also, note that big cities tend to be located in blue counties, whereas more rural areas represent red counties. Dallas is the little blue squared, isolated amoung red ones in the top right region !
-
+<center>
 <img align="center" width="250" src="assets/img/texas.png">
-
-<img src="/assets/img/texas.png" class="centerImage" alt="Texas counties" height="120" width="350">
-![Texas counties](/assets/img/texas.png){: .mx-auto.d-block :}
+</center>
 
 Let's look at how the hit rate and threshold repartition changes based on the county color.
 
