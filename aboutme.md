@@ -6,8 +6,8 @@ cover-img: /assets/img/amis.png
 
 ---
 
-Behind the Halouma team hide three passionated students: Margaux, Louis and Hannah.
+Behind the Halouma team hide three passionate students: Margaux, Louis and Hannah.
 
 ### Our story
 
-We met when we were looking for working partners for ADA. Now nothing separates us anymore ! 
+We met when we were looking for working partners for ADA. Nothing separates us anymore !
