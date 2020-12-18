@@ -46,19 +46,19 @@ Before plotting our rates, we first want to check if our dataset is big enough: 
 <table class="tg">
 <tbody>
   <tr>
-    <td class="tg-0lax">State group</td>
-    <td class="tg-0lax">Number of stops per year</td>
-    <td class="tg-0lax">Number of searches per year</td>
+    <td align = "center" class="tg-0lax">State group</td>
+    <td align = "center" class="tg-0lax">Number of stops per year</td>
+    <td align = "center" class="tg-0lax">Number of searches per year</td>
   </tr>
   <tr>
     <td align = "center" class="tg-0lax"><span style="color:Maroon">Red</span></td>
-    <td class="tg-0lax"> 2 104 964.4</span></td>
-    <td class="tg-0lax"> 47 958.6 </span></td>
+    <td align = "center" class="tg-0lax"> 2 104 964.4</span></td>
+    <td align = "center" class="tg-0lax"> 47 958.6 </span></td>
   </tr>
     <tr>
-    <td class="tg-0lax"><span style="color:Navy">Blue</span></td>
-    <td class="tg-0lax"> 1 071 249.6</span></td>
-    <td class="tg-0lax"> 29 642.0 </span></td>
+    <td align = "center" class="tg-0lax"><span style="color:Navy">Blue</span></td>
+    <td align = "center" class="tg-0lax"> 1 071 249.6</span></td>
+    <td align = "center" class="tg-0lax"> 29 642.0 </span></td>
   </tr>
 </tbody>
 </table>
@@ -118,16 +118,16 @@ The results are as follows:
 <table class="tg">
 <tbody>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">p-value</td>
+    <td align = "center" class="tg-0lax"></td>
+    <td align = "center" class="tg-0lax">p-value</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Non-normalized</td>
-    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283e-06</span></td>
+    <td align = "center" class="tg-0lax">Non-normalized</td>
+    <td align = "center" class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">2.2283e-06</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Normalized</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14982</span></td>
+    <td align = "center" class="tg-0lax">Normalized</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14982</span></td>
   </tr>
 </tbody>
 </table>
@@ -140,24 +140,24 @@ Okay, let's run some more tests! This time on the mean hit rates and thresholds 
 <table class="tg">
 <tbody>
   <tr>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">p-value</td>
+    <td align = "center" class="tg-0lax"></td>
+    <td align = "center" class="tg-0lax">p-value</td>
   </tr>
   <tr>
-    <td class="tg-0lax">Mean Black hit rate</td>
-    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">3.5143e-16</span></td>
+    <td align = "center" class="tg-0lax">Mean Black hit rate</td>
+    <td align = "center" class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">3.5143e-16</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Mean Hispanic hit rate</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.08968</span></td>
+    <td align = "center" class="tg-0lax">Mean Hispanic hit rate</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.08968</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Mean Black threshold</td>
-    <td class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">0.19645</span></td>
+    <td align = "center" class="tg-0lax">Mean Black threshold</td>
+    <td align = "center" class="tg-0lax"> <span style="font-weight:normal;font-style:normal;text-decoration:none">0.19645</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax">Mean Hispanic threshold</td>
-    <td class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14982</span></td>
+    <td align = "center" class="tg-0lax">Mean Hispanic threshold</td>
+    <td align = "center" class="tg-0lax"><span style="font-weight:normal;font-style:normal;text-decoration:none">0.14982</span></td>
   </tr>
 </tbody>
 </table>
