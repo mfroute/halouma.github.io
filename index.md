@@ -80,6 +80,16 @@ But be careful: there are a large amount of points in red states and far less in
 As a conclusion : **Non-Caucasian drivers have lower values for hit rates and threshold, in _all_ color of state, than white drivers. Moreover, this gap widens even more for hispanic drivers** !
 
 ## Statistics
+### Tableau avec normalized and weighted mean:
+| |Red | Blue|
+| :------| :--- |
+| |Black|Hispanic|White|
+| :------ |:--- | :--- |
+| Hit rate, normalized | 0.960909 | 0.698504 | 1 | 
+| Hit rate, weighted and normalized | 0.908968 | 0.689212	|1 |
+| Threshold, normalized | 0.704567 |0.631549 |1 |
+| Threshold, weighted and normalized | 0.571677|0.618790| 1 |
+
 
 ## Our first observations
 Oops. Apparently there is a significant difference according to our statistical tests. But it's not obvious! How can we sharpen our study?
