@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Are racism and political orientation correlated ?
+title: Are racial bias and political orientation correlated ?
 subtitle: Study of concrete parameters in red and blue regions of the US
 comments: False
 cover-img: /assets/img/1280px-Red_state,_blue_state.png
@@ -16,19 +16,19 @@ At a time of the _Black Lives Matter_ movement, the denunciation of police viole
 
 Today, we study the police behaviour as a barometer of prejudices toward different ethnic origins. No need to tell you that any correlation with a political inclination would be even more questioning about the values spread by certain political parties...
 
-# Let's quantify racism
+# Let's quantify racial bias
 ## What data are we looking at ?
 For this study we used a dataset of **100 million traffic stops** across the United States, with various time ranges for each state. We also compare this data with the [New York Times website](https://www.nytimes.com/elections/2016/results/president), which reports the results to the **US presidential elections of 2016**.
 
-## Is racism measurable ?
+## Is racial bias measurable ?
 This is difficult to quantify because many parameters are subjective. This is why we are interested in car stops and the potential searches to which they lead. This makes it possible to study uniform and more concrete characteristics: location, reason for the arrest, decision to search, "success" of the search, and colour of the driver.
 We focus on two parameters:
 - the hit rate, the "success" rate of searches for drug possession during police arrests. 
 A lower hit rate may indicate that the police officer initiated a search with less evidence, which may be biased by the colour of the driver's skin.  
 - the threshold: the level of evidence necessary for the police officer to decide to search someone.
 If it is lower, it may also show a bias on the part of the police officer.
-
-After counting these parameters we will **compare the results between red and blue states** !
+.
+After counting these parameters we will **compare the results between <span style="color:red">**red**</span> and <span style="color:blue">**blue**</span> states** !
 
 # Comparing red and blue states
 ## Which states and why ?
